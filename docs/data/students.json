@@ -1740,7 +1740,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 78390,
+  "latestBalance": 78330,
   "sessions": [
    {
     "session": "2025-2026",
@@ -1840,16 +1840,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 2",
-      "total": 78390,
+      "total": 78330,
       "paid": 0,
-      "balance": 78390,
+      "balance": 78330,
       "discount": 0.25,
       "items": {
        "TUITION": 24750,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1500,
        "PRACTICAL": 4500,
-       "TEXTBOOKS": 19560,
+       "TEXTBOOKS": 19500,
        "NB & STAT": 14330,
        "AFTERSCHOOL": 8000,
        "OUTSTANDING": 750
@@ -5643,7 +5643,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 62410,
+  "latestBalance": 62230,
   "sessions": [
    {
     "session": "2024-2025",
@@ -5815,16 +5815,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 3",
-      "total": 62410,
+      "total": 62230,
       "paid": 0,
-      "balance": 62410,
+      "balance": 62230,
       "discount": 0.5,
       "items": {
        "TUITION": 16500,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1000,
        "PRACTICAL": 3000,
-       "TEXTBOOKS": 22580,
+       "TEXTBOOKS": 22400,
        "NB & STAT": 14330
       },
       "reference": {
@@ -6888,7 +6888,7 @@
   "firstSession": "2021-2022",
   "lastSession": "2026-2027",
   "sessionCount": 6,
-  "latestBalance": 67590,
+  "latestBalance": 67530,
   "sessions": [
    {
     "session": "2021-2022",
@@ -7259,16 +7259,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 2",
-      "total": 67590,
+      "total": 67530,
       "paid": 0,
-      "balance": 67590,
+      "balance": 67530,
       "discount": 0.3,
       "items": {
        "TUITION": 23100,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1400,
        "PRACTICAL": 4200,
-       "TEXTBOOKS": 19560,
+       "TEXTBOOKS": 19500,
        "NB & STAT": 14330
       },
       "reference": {
@@ -7600,7 +7600,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 62410,
+  "latestBalance": 62230,
   "sessions": [
    {
     "session": "2024-2025",
@@ -7773,16 +7773,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 3",
-      "total": 62410,
+      "total": 62230,
       "paid": 0,
-      "balance": 62410,
+      "balance": 62230,
       "discount": 0.5,
       "items": {
        "TUITION": 16500,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1000,
        "PRACTICAL": 3000,
-       "TEXTBOOKS": 22580,
+       "TEXTBOOKS": 22400,
        "NB & STAT": 14330
       },
       "reference": {
@@ -7888,7 +7888,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 79890,
+  "latestBalance": 79830,
   "sessions": [
    {
     "session": "2025-2026",
@@ -7980,16 +7980,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 2",
-      "total": 79890,
+      "total": 79830,
       "paid": 0,
-      "balance": 79890,
+      "balance": 79830,
       "discount": 0,
       "items": {
        "TUITION": 33000,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 2000,
        "PRACTICAL": 6000,
-       "TEXTBOOKS": 19560,
+       "TEXTBOOKS": 19500,
        "NB & STAT": 14330
       },
       "reference": {
@@ -11179,7 +11179,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 70380,
+  "latestBalance": 70200,
   "sessions": [
    {
     "session": "2024-2025",
@@ -11362,16 +11362,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 3",
-      "total": 70380,
+      "total": 70200,
       "paid": 0,
-      "balance": 70380,
+      "balance": 70200,
       "discount": 0.5,
       "items": {
        "TUITION": 16500,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1000,
        "PRACTICAL": 3000,
-       "TEXTBOOKS": 22580,
+       "TEXTBOOKS": 22400,
        "NB & STAT": 14330,
        "AFTERSCHOOL": 8000,
        "OUTSTANDING": -30
@@ -11581,7 +11581,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 73940,
+  "latestBalance": 73760,
   "sessions": [
    {
     "session": "2024-2025",
@@ -11752,16 +11752,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 3",
-      "total": 73940,
+      "total": 73760,
       "paid": 0,
-      "balance": 73940,
+      "balance": 73760,
       "discount": 0,
       "items": {
        "TUITION": 33000,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 2000,
        "PRACTICAL": 6000,
-       "TEXTBOOKS": 22580,
+       "TEXTBOOKS": 22400,
        "NB & STAT": 14330,
        "OUTSTANDING": -8970
       },
@@ -12921,7 +12921,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 62890,
+  "latestBalance": 62710,
   "sessions": [
    {
     "session": "2024-2025",
@@ -13091,16 +13091,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 3",
-      "total": 62890,
+      "total": 62710,
       "paid": 0,
-      "balance": 62890,
+      "balance": 62710,
       "discount": 0.5,
       "items": {
        "TUITION": 16500,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1000,
        "PRACTICAL": 3000,
-       "TEXTBOOKS": 22580,
+       "TEXTBOOKS": 22400,
        "NB & STAT": 14330,
        "OUTSTANDING": 480
       },
@@ -13126,7 +13126,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 72660,
+  "latestBalance": 72480,
   "sessions": [
    {
     "session": "2025-2026",
@@ -13221,16 +13221,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 3",
-      "total": 72660,
+      "total": 72480,
       "paid": 0,
-      "balance": 72660,
+      "balance": 72480,
       "discount": 0.25,
       "items": {
        "TUITION": 24750,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1500,
        "PRACTICAL": 4500,
-       "TEXTBOOKS": 22580,
+       "TEXTBOOKS": 22400,
        "NB & STAT": 14330
       },
       "reference": {
@@ -15197,7 +15197,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 62910,
+  "latestBalance": 62730,
   "sessions": [
    {
     "session": "2024-2025",
@@ -15364,16 +15364,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 3",
-      "total": 62910,
+      "total": 62730,
       "paid": 0,
-      "balance": 62910,
+      "balance": 62730,
       "discount": 0.5,
       "items": {
        "TUITION": 16500,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1000,
        "PRACTICAL": 3000,
-       "TEXTBOOKS": 22580,
+       "TEXTBOOKS": 22400,
        "NB & STAT": 14330,
        "OUTSTANDING": 500
       },
@@ -17275,7 +17275,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 62410,
+  "latestBalance": 62230,
   "sessions": [
    {
     "session": "2024-2025",
@@ -17446,16 +17446,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 3",
-      "total": 62410,
+      "total": 62230,
       "paid": 0,
-      "balance": 62410,
+      "balance": 62230,
       "discount": 0.5,
       "items": {
        "TUITION": 16500,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1000,
        "PRACTICAL": 3000,
-       "TEXTBOOKS": 22580,
+       "TEXTBOOKS": 22400,
        "NB & STAT": 14330
       },
       "reference": {
@@ -17796,7 +17796,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 79890,
+  "latestBalance": 79830,
   "sessions": [
    {
     "session": "2025-2026",
@@ -17890,16 +17890,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 2",
-      "total": 79890,
+      "total": 79830,
       "paid": 0,
-      "balance": 79890,
+      "balance": 79830,
       "discount": 0,
       "items": {
        "TUITION": 33000,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 2000,
        "PRACTICAL": 6000,
-       "TEXTBOOKS": 19560,
+       "TEXTBOOKS": 19500,
        "NB & STAT": 14330
       },
       "reference": {
@@ -20273,7 +20273,7 @@
   "firstSession": "2021-2022",
   "lastSession": "2026-2027",
   "sessionCount": 6,
-  "latestBalance": 67590,
+  "latestBalance": 67530,
   "sessions": [
    {
     "session": "2021-2022",
@@ -20642,16 +20642,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 2",
-      "total": 67590,
+      "total": 67530,
       "paid": 0,
-      "balance": 67590,
+      "balance": 67530,
       "discount": 0.3,
       "items": {
        "TUITION": 23100,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1400,
        "PRACTICAL": 4200,
-       "TEXTBOOKS": 19560,
+       "TEXTBOOKS": 19500,
        "NB & STAT": 14330
       },
       "reference": {
@@ -28899,7 +28899,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 70610,
+  "latestBalance": 70430,
   "sessions": [
    {
     "session": "2024-2025",
@@ -29077,16 +29077,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 3",
-      "total": 70610,
+      "total": 70430,
       "paid": 0,
-      "balance": 70610,
+      "balance": 70430,
       "discount": 0.3,
       "items": {
        "TUITION": 23100,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1400,
        "PRACTICAL": 4200,
-       "TEXTBOOKS": 22580,
+       "TEXTBOOKS": 22400,
        "NB & STAT": 14330
       },
       "reference": {
@@ -30004,7 +30004,7 @@
   "firstSession": "2021-2022",
   "lastSession": "2026-2027",
   "sessionCount": 6,
-  "latestBalance": 67265,
+  "latestBalance": 67085,
   "sessions": [
    {
     "session": "2021-2022",
@@ -30398,16 +30398,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 3",
-      "total": 67265,
+      "total": 67085,
       "paid": 0,
-      "balance": 67265,
+      "balance": 67085,
       "discount": 0.5,
       "items": {
        "TUITION": 16500,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1000,
        "PRACTICAL": 3000,
-       "TEXTBOOKS": 22580,
+       "TEXTBOOKS": 22400,
        "NB & STAT": 14330,
        "AFTERSCHOOL": 8000,
        "OUTSTANDING": -3145
@@ -35235,7 +35235,7 @@
   "firstSession": "2021-2022",
   "lastSession": "2026-2027",
   "sessionCount": 6,
-  "latestBalance": 78610,
+  "latestBalance": 78430,
   "sessions": [
    {
     "session": "2021-2022",
@@ -35626,16 +35626,16 @@
      {
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 3",
-      "total": 78610,
+      "total": 78430,
       "paid": 0,
-      "balance": 78610,
+      "balance": 78430,
       "discount": 0.3,
       "items": {
        "TUITION": 23100,
        "PTA&EXAM": 5000,
        "REPORT_CARD": 1400,
        "PRACTICAL": 4200,
-       "TEXTBOOKS": 22580,
+       "TEXTBOOKS": 22400,
        "NB & STAT": 14330,
        "AFTERSCHOOL": 8000
       },

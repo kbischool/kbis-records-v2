@@ -179,12 +179,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 18,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 18,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 0,
+   "costTotal": 34200,
    "sellTotal": 41040,
-   "profit": 41040
+   "profit": 6840
   },
   {
    "class": "02 PLAYGROUP 1",
@@ -193,12 +193,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 18,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 18,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 0,
+   "costTotal": 34200,
    "sellTotal": 41040,
-   "profit": 41040
+   "profit": 6840
   },
   {
    "class": "02 PLAYGROUP 1",
@@ -207,12 +207,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 18,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 18,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 0,
+   "costTotal": 34200,
    "sellTotal": 41040,
-   "profit": 41040
+   "profit": 6840
   },
   {
    "class": "03 PLAYGROUP 2",
@@ -221,12 +221,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 10,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 10,
    "costPrice": 2000,
    "sellPrice": 2400,
-   "costTotal": 0,
+   "costTotal": 20000,
    "sellTotal": 24000,
-   "profit": 24000
+   "profit": 4000
   },
   {
    "class": "03 PLAYGROUP 2",
@@ -235,12 +235,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 10,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 10,
    "costPrice": 2200,
    "sellPrice": 2640,
-   "costTotal": 0,
+   "costTotal": 22000,
    "sellTotal": 26400,
-   "profit": 26400
+   "profit": 4400
   },
   {
    "class": "03 PLAYGROUP 2",
@@ -249,12 +249,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 10,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 10,
    "costPrice": 2200,
    "sellPrice": 2640,
-   "costTotal": 0,
+   "costTotal": 22000,
    "sellTotal": 26400,
-   "profit": 26400
+   "profit": 4400
   },
   {
    "class": "03 PLAYGROUP 2",
@@ -263,12 +263,12 @@
    "provider": "EXCEEDING GRACE",
    "studentQty": 10,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 10,
    "costPrice": 2000,
    "sellPrice": 2400,
-   "costTotal": 0,
+   "costTotal": 20000,
    "sellTotal": 24000,
-   "profit": 24000
+   "profit": 4000
   },
   {
    "class": "03 PLAYGROUP 2",
@@ -277,12 +277,12 @@
    "provider": "EXCEEDING GRACE",
    "studentQty": 10,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 10,
    "costPrice": 2000,
    "sellPrice": 2400,
-   "costTotal": 0,
+   "costTotal": 20000,
    "sellTotal": 24000,
-   "profit": 24000
+   "profit": 4000
   },
   {
    "class": "04 NURSERY 1",
@@ -291,12 +291,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 20,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 20,
    "costPrice": 2000,
    "sellPrice": 2400,
-   "costTotal": 0,
+   "costTotal": 40000,
    "sellTotal": 48000,
-   "profit": 48000
+   "profit": 8000
   },
   {
    "class": "04 NURSERY 1",
@@ -305,12 +305,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 20,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 20,
    "costPrice": 2200,
    "sellPrice": 2640,
-   "costTotal": 0,
+   "costTotal": 44000,
    "sellTotal": 52800,
-   "profit": 52800
+   "profit": 8800
   },
   {
    "class": "04 NURSERY 1",
@@ -319,12 +319,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 20,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 20,
    "costPrice": 2200,
    "sellPrice": 2640,
-   "costTotal": 0,
+   "costTotal": 44000,
    "sellTotal": 52800,
-   "profit": 52800
+   "profit": 8800
   },
   {
    "class": "04 NURSERY 1",
@@ -333,12 +333,12 @@
    "provider": "EXCEEDING GRACE",
    "studentQty": 20,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 20,
    "costPrice": 750,
    "sellPrice": 900,
-   "costTotal": 0,
+   "costTotal": 15000,
    "sellTotal": 18000,
-   "profit": 18000
+   "profit": 3000
   },
   {
    "class": "04 NURSERY 1",
@@ -347,12 +347,12 @@
    "provider": "EXCEEDING GRACE",
    "studentQty": 20,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 20,
    "costPrice": 2000,
    "sellPrice": 2400,
-   "costTotal": 0,
+   "costTotal": 40000,
    "sellTotal": 48000,
-   "profit": 48000
+   "profit": 8000
   },
   {
    "class": "04 NURSERY 1",
@@ -361,12 +361,12 @@
    "provider": "EXCEEDING GRACE",
    "studentQty": 20,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 20,
    "costPrice": 2000,
    "sellPrice": 2400,
-   "costTotal": 0,
+   "costTotal": 40000,
    "sellTotal": 48000,
-   "profit": 48000
+   "profit": 8000
   },
   {
    "class": "05 NURSERY 2",
@@ -375,12 +375,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 2900,
    "sellPrice": 3480,
-   "costTotal": 0,
+   "costTotal": 26100,
    "sellTotal": 31320,
-   "profit": 31320
+   "profit": 5220
   },
   {
    "class": "05 NURSERY 2",
@@ -389,12 +389,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 5500,
    "sellPrice": 6600,
-   "costTotal": 0,
+   "costTotal": 49500,
    "sellTotal": 59400,
-   "profit": 59400
+   "profit": 9900
   },
   {
    "class": "05 NURSERY 2",
@@ -403,12 +403,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 3400,
    "sellPrice": 4080,
-   "costTotal": 0,
+   "costTotal": 30600,
    "sellTotal": 36720,
-   "profit": 36720
+   "profit": 6120
   },
   {
    "class": "05 NURSERY 2",
@@ -417,12 +417,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 1620,
    "sellPrice": 1950,
-   "costTotal": 0,
+   "costTotal": 14580,
    "sellTotal": 17550,
-   "profit": 17550
+   "profit": 2970
   },
   {
    "class": "05 NURSERY 2",
@@ -431,12 +431,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 1700,
    "sellPrice": 2040,
-   "costTotal": 0,
+   "costTotal": 15300,
    "sellTotal": 18360,
-   "profit": 18360
+   "profit": 3060
   },
   {
    "class": "05 NURSERY 2",
@@ -445,12 +445,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 1700,
    "sellPrice": 2040,
-   "costTotal": 0,
+   "costTotal": 15300,
    "sellTotal": 18360,
-   "profit": 18360
+   "profit": 3060
   },
   {
    "class": "05 NURSERY 2",
@@ -459,12 +459,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 2500,
    "sellPrice": 3000,
-   "costTotal": 0,
+   "costTotal": 22500,
    "sellTotal": 27000,
-   "profit": 27000
+   "profit": 4500
   },
   {
    "class": "05 NURSERY 2",
@@ -473,12 +473,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 520,
    "sellPrice": 630,
-   "costTotal": 0,
+   "costTotal": 4680,
    "sellTotal": 5670,
-   "profit": 5670
+   "profit": 990
   },
   {
    "class": "05 NURSERY 2",
@@ -487,12 +487,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 520,
    "sellPrice": 630,
-   "costTotal": 0,
+   "costTotal": 4680,
    "sellTotal": 5670,
-   "profit": 5670
+   "profit": 990
   },
   {
    "class": "06 PRIMARY 1",
@@ -501,12 +501,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 2900,
    "sellPrice": 3480,
-   "costTotal": 0,
+   "costTotal": 26100,
    "sellTotal": 31320,
-   "profit": 31320
+   "profit": 5220
   },
   {
    "class": "06 PRIMARY 1",
@@ -515,12 +515,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 5500,
    "sellPrice": 6600,
-   "costTotal": 0,
+   "costTotal": 49500,
    "sellTotal": 59400,
-   "profit": 59400
+   "profit": 9900
   },
   {
    "class": "06 PRIMARY 1",
@@ -529,12 +529,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 3400,
    "sellPrice": 4080,
-   "costTotal": 0,
+   "costTotal": 30600,
    "sellTotal": 36720,
-   "profit": 36720
+   "profit": 6120
   },
   {
    "class": "06 PRIMARY 1",
@@ -543,12 +543,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 1620,
    "sellPrice": 1950,
-   "costTotal": 0,
+   "costTotal": 14580,
    "sellTotal": 17550,
-   "profit": 17550
+   "profit": 2970
   },
   {
    "class": "06 PRIMARY 1",
@@ -557,12 +557,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 1700,
    "sellPrice": 2040,
-   "costTotal": 0,
+   "costTotal": 15300,
    "sellTotal": 18360,
-   "profit": 18360
+   "profit": 3060
   },
   {
    "class": "06 PRIMARY 1",
@@ -571,12 +571,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 1700,
    "sellPrice": 2040,
-   "costTotal": 0,
+   "costTotal": 15300,
    "sellTotal": 18360,
-   "profit": 18360
+   "profit": 3060
   },
   {
    "class": "06 PRIMARY 1",
@@ -585,12 +585,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 2500,
    "sellPrice": 3000,
-   "costTotal": 0,
+   "costTotal": 22500,
    "sellTotal": 27000,
-   "profit": 27000
+   "profit": 4500
   },
   {
    "class": "06 PRIMARY 1",
@@ -599,12 +599,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 580,
    "sellPrice": 700,
-   "costTotal": 0,
+   "costTotal": 5220,
    "sellTotal": 6300,
-   "profit": 6300
+   "profit": 1080
   },
   {
    "class": "06 PRIMARY 1",
@@ -613,12 +613,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 630,
    "sellPrice": 760,
-   "costTotal": 0,
+   "costTotal": 5670,
    "sellTotal": 6840,
-   "profit": 6840
+   "profit": 1170
   },
   {
    "class": "07 PRIMARY 2",
@@ -627,12 +627,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 8,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 8,
    "costPrice": 2900,
    "sellPrice": 3480,
-   "costTotal": 0,
+   "costTotal": 23200,
    "sellTotal": 27840,
-   "profit": 27840
+   "profit": 4640
   },
   {
    "class": "07 PRIMARY 2",
@@ -641,12 +641,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 8,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 8,
    "costPrice": 5500,
    "sellPrice": 6600,
-   "costTotal": 0,
+   "costTotal": 44000,
    "sellTotal": 52800,
-   "profit": 52800
+   "profit": 8800
   },
   {
    "class": "07 PRIMARY 2",
@@ -655,12 +655,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 8,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 8,
    "costPrice": 3400,
    "sellPrice": 4080,
-   "costTotal": 0,
+   "costTotal": 27200,
    "sellTotal": 32640,
-   "profit": 32640
+   "profit": 5440
   },
   {
    "class": "07 PRIMARY 2",
@@ -669,12 +669,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 8,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 8,
    "costPrice": 1620,
    "sellPrice": 1950,
-   "costTotal": 0,
+   "costTotal": 12960,
    "sellTotal": 15600,
-   "profit": 15600
+   "profit": 2640
   },
   {
    "class": "07 PRIMARY 2",
@@ -683,12 +683,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 8,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 8,
    "costPrice": 1700,
    "sellPrice": 2040,
-   "costTotal": 0,
+   "costTotal": 13600,
    "sellTotal": 16320,
-   "profit": 16320
+   "profit": 2720
   },
   {
    "class": "07 PRIMARY 2",
@@ -697,12 +697,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 8,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 8,
    "costPrice": 1700,
    "sellPrice": 2040,
-   "costTotal": 0,
+   "costTotal": 13600,
    "sellTotal": 16320,
-   "profit": 16320
+   "profit": 2720
   },
   {
    "class": "07 PRIMARY 2",
@@ -711,12 +711,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 8,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 8,
    "costPrice": 2500,
    "sellPrice": 3000,
-   "costTotal": 0,
+   "costTotal": 20000,
    "sellTotal": 24000,
-   "profit": 24000
+   "profit": 4000
   },
   {
    "class": "07 PRIMARY 2",
@@ -725,12 +725,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 8,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 8,
    "costPrice": 680,
    "sellPrice": 820,
-   "costTotal": 0,
+   "costTotal": 5440,
    "sellTotal": 6560,
-   "profit": 6560
+   "profit": 1120
   },
   {
    "class": "07 PRIMARY 2",
@@ -739,12 +739,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 8,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 8,
    "costPrice": 680,
    "sellPrice": 820,
-   "costTotal": 0,
+   "costTotal": 5440,
    "sellTotal": 6560,
-   "profit": 6560
+   "profit": 1120
   },
   {
    "class": "08 PRIMARY 3",
@@ -753,12 +753,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 3350,
    "sellPrice": 4020,
-   "costTotal": 0,
+   "costTotal": 30150,
    "sellTotal": 36180,
-   "profit": 36180
+   "profit": 6030
   },
   {
    "class": "08 PRIMARY 3",
@@ -767,12 +767,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 5800,
    "sellPrice": 6960,
-   "costTotal": 0,
+   "costTotal": 52200,
    "sellTotal": 62640,
-   "profit": 62640
+   "profit": 10440
   },
   {
    "class": "08 PRIMARY 3",
@@ -781,12 +781,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 3600,
    "sellPrice": 4320,
-   "costTotal": 0,
+   "costTotal": 32400,
    "sellTotal": 38880,
-   "profit": 38880
+   "profit": 6480
   },
   {
    "class": "08 PRIMARY 3",
@@ -795,12 +795,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 1620,
    "sellPrice": 1950,
-   "costTotal": 0,
+   "costTotal": 14580,
    "sellTotal": 17550,
-   "profit": 17550
+   "profit": 2970
   },
   {
    "class": "08 PRIMARY 3",
@@ -809,12 +809,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 1700,
    "sellPrice": 2040,
-   "costTotal": 0,
+   "costTotal": 15300,
    "sellTotal": 18360,
-   "profit": 18360
+   "profit": 3060
   },
   {
    "class": "08 PRIMARY 3",
@@ -823,12 +823,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 1700,
    "sellPrice": 2040,
-   "costTotal": 0,
+   "costTotal": 15300,
    "sellTotal": 18360,
-   "profit": 18360
+   "profit": 3060
   },
   {
    "class": "08 PRIMARY 3",
@@ -837,12 +837,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 2500,
    "sellPrice": 3000,
-   "costTotal": 0,
+   "costTotal": 22500,
    "sellTotal": 27000,
-   "profit": 27000
+   "profit": 4500
   },
   {
    "class": "08 PRIMARY 3",
@@ -851,12 +851,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 680,
    "sellPrice": 820,
-   "costTotal": 0,
+   "costTotal": 6120,
    "sellTotal": 7380,
-   "profit": 7380
+   "profit": 1260
   },
   {
    "class": "08 PRIMARY 3",
@@ -865,12 +865,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 9,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 9,
    "costPrice": 700,
    "sellPrice": 840,
-   "costTotal": 0,
+   "costTotal": 6300,
    "sellTotal": 7560,
-   "profit": 7560
+   "profit": 1260
   },
   {
    "class": "09 PRIMARY 4",
@@ -879,12 +879,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 3350,
    "sellPrice": 4020,
-   "costTotal": 0,
+   "costTotal": 13400,
    "sellTotal": 16080,
-   "profit": 16080
+   "profit": 2680
   },
   {
    "class": "09 PRIMARY 4",
@@ -893,12 +893,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 5800,
    "sellPrice": 6960,
-   "costTotal": 0,
+   "costTotal": 23200,
    "sellTotal": 27840,
-   "profit": 27840
+   "profit": 4640
   },
   {
    "class": "09 PRIMARY 4",
@@ -907,12 +907,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 3600,
    "sellPrice": 4320,
-   "costTotal": 0,
+   "costTotal": 14400,
    "sellTotal": 17280,
-   "profit": 17280
+   "profit": 2880
   },
   {
    "class": "09 PRIMARY 4",
@@ -921,12 +921,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 1620,
    "sellPrice": 1950,
-   "costTotal": 0,
+   "costTotal": 6480,
    "sellTotal": 7800,
-   "profit": 7800
+   "profit": 1320
   },
   {
    "class": "09 PRIMARY 4",
@@ -935,12 +935,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 1700,
    "sellPrice": 2040,
-   "costTotal": 0,
+   "costTotal": 6800,
    "sellTotal": 8160,
-   "profit": 8160
+   "profit": 1360
   },
   {
    "class": "09 PRIMARY 4",
@@ -949,12 +949,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 1700,
    "sellPrice": 2040,
-   "costTotal": 0,
+   "costTotal": 6800,
    "sellTotal": 8160,
-   "profit": 8160
+   "profit": 1360
   },
   {
    "class": "09 PRIMARY 4",
@@ -963,12 +963,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 2500,
    "sellPrice": 3000,
-   "costTotal": 0,
+   "costTotal": 10000,
    "sellTotal": 12000,
-   "profit": 12000
+   "profit": 2000
   },
   {
    "class": "09 PRIMARY 4",
@@ -977,12 +977,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 700,
    "sellPrice": 840,
-   "costTotal": 0,
+   "costTotal": 2800,
    "sellTotal": 3360,
-   "profit": 3360
+   "profit": 560
   },
   {
    "class": "09 PRIMARY 4",
@@ -991,12 +991,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 700,
    "sellPrice": 840,
-   "costTotal": 0,
+   "costTotal": 2800,
    "sellTotal": 3360,
-   "profit": 3360
+   "profit": 560
   },
   {
    "class": "10 PRIMARY 5",
@@ -1005,12 +1005,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 4500,
    "sellPrice": 5400,
-   "costTotal": 0,
+   "costTotal": 18000,
    "sellTotal": 21600,
-   "profit": 21600
+   "profit": 3600
   },
   {
    "class": "10 PRIMARY 5",
@@ -1019,12 +1019,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 5800,
    "sellPrice": 6960,
-   "costTotal": 0,
+   "costTotal": 23200,
    "sellTotal": 27840,
-   "profit": 27840
+   "profit": 4640
   },
   {
    "class": "10 PRIMARY 5",
@@ -1033,12 +1033,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 3600,
    "sellPrice": 4320,
-   "costTotal": 0,
+   "costTotal": 14400,
    "sellTotal": 17280,
-   "profit": 17280
+   "profit": 2880
   },
   {
    "class": "10 PRIMARY 5",
@@ -1047,12 +1047,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 1620,
    "sellPrice": 1950,
-   "costTotal": 0,
+   "costTotal": 6480,
    "sellTotal": 7800,
-   "profit": 7800
+   "profit": 1320
   },
   {
    "class": "10 PRIMARY 5",
@@ -1061,12 +1061,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 0,
+   "costTotal": 7600,
    "sellTotal": 9120,
-   "profit": 9120
+   "profit": 1520
   },
   {
    "class": "10 PRIMARY 5",
@@ -1075,12 +1075,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 0,
+   "costTotal": 7600,
    "sellTotal": 9120,
-   "profit": 9120
+   "profit": 1520
   },
   {
    "class": "10 PRIMARY 5",
@@ -1089,12 +1089,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 2500,
    "sellPrice": 3000,
-   "costTotal": 0,
+   "costTotal": 10000,
    "sellTotal": 12000,
-   "profit": 12000
+   "profit": 2000
   },
   {
    "class": "10 PRIMARY 5",
@@ -1103,12 +1103,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 720,
    "sellPrice": 870,
-   "costTotal": 0,
+   "costTotal": 2880,
    "sellTotal": 3480,
-   "profit": 3480
+   "profit": 600
   },
   {
    "class": "10 PRIMARY 5",
@@ -1117,12 +1117,12 @@
    "provider": "THE EDUCATIONIST",
    "studentQty": 4,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 4,
    "costPrice": 735,
    "sellPrice": 890,
-   "costTotal": 0,
+   "costTotal": 2940,
    "sellTotal": 3560,
-   "profit": 3560
+   "profit": 620
   },
   {
    "class": "11 JSS1",
@@ -1167,18 +1167,74 @@
    "profit": 0
   },
   {
+   "class": "11 JSS1",
+   "subject": "ENGLISH LITERATURE 1",
+   "textbook": "STORY TIME",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 0,
+   "availableQty": 0,
+   "neededQty": 0,
+   "costPrice": 800,
+   "sellPrice": 960,
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
+  },
+  {
+   "class": "11 JSS1",
+   "subject": "ENGLISH LITERATURE 2",
+   "textbook": "TALES OF FREEDOM",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 0,
+   "availableQty": 0,
+   "neededQty": 0,
+   "costPrice": 850,
+   "sellPrice": 1020,
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
+  },
+  {
+   "class": "11 JSS1",
+   "subject": "YORUBA LITERATURE 1",
+   "textbook": "KORO TO DAYO",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 0,
+   "availableQty": 0,
+   "neededQty": 0,
+   "costPrice": 850,
+   "sellPrice": 1020,
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
+  },
+  {
+   "class": "11 JSS1",
+   "subject": "YORUBA LITERATURE 2",
+   "textbook": "EWI AKONILOGBON",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 0,
+   "availableQty": 0,
+   "neededQty": 0,
+   "costPrice": 700,
+   "sellPrice": 840,
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
+  },
+  {
    "class": "12 JSS2",
    "subject": "ENGLISH GRAMMAR",
    "textbook": "ACTIVE GRAMMAR 2",
    "provider": "WONSEBOLATAN",
    "studentQty": 5,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 5,
    "costPrice": 3600,
    "sellPrice": 4320,
-   "costTotal": 0,
+   "costTotal": 18000,
    "sellTotal": 21600,
-   "profit": 21600
+   "profit": 3600
   },
   {
    "class": "12 JSS2",
@@ -1187,12 +1243,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 5,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 5,
    "costPrice": 4300,
    "sellPrice": 5160,
-   "costTotal": 0,
+   "costTotal": 21500,
    "sellTotal": 25800,
-   "profit": 25800
+   "profit": 4300
   },
   {
    "class": "12 JSS2",
@@ -1201,12 +1257,68 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 5,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 5,
    "costPrice": 5000,
    "sellPrice": 6000,
-   "costTotal": 0,
+   "costTotal": 25000,
    "sellTotal": 30000,
-   "profit": 30000
+   "profit": 5000
+  },
+  {
+   "class": "12 JSS2",
+   "subject": "ENGLISH LITERATURE 1",
+   "textbook": "SEED OF HONOUR",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 5,
+   "availableQty": 0,
+   "neededQty": 5,
+   "costPrice": 850,
+   "sellPrice": 1020,
+   "costTotal": 4250,
+   "sellTotal": 5100,
+   "profit": 850
+  },
+  {
+   "class": "12 JSS2",
+   "subject": "ENGLISH LITERATURE 2",
+   "textbook": "ETIM'S NEW DAWN",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 5,
+   "availableQty": 0,
+   "neededQty": 5,
+   "costPrice": 850,
+   "sellPrice": 1020,
+   "costTotal": 4250,
+   "sellTotal": 5100,
+   "profit": 850
+  },
+  {
+   "class": "12 JSS2",
+   "subject": "YORUBA LITERATURE 1",
+   "textbook": "BOLORUN KO PANI",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 5,
+   "availableQty": 0,
+   "neededQty": 5,
+   "costPrice": 850,
+   "sellPrice": 1020,
+   "costTotal": 4250,
+   "sellTotal": 5100,
+   "profit": 850
+  },
+  {
+   "class": "12 JSS2",
+   "subject": "YORUBA LITERATURE 2",
+   "textbook": "BESIN BA DANI",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 5,
+   "availableQty": 0,
+   "neededQty": 5,
+   "costPrice": 800,
+   "sellPrice": 960,
+   "costTotal": 4000,
+   "sellTotal": 4800,
+   "profit": 800
   },
   {
    "class": "13 JSS3",
@@ -1215,7 +1327,7 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 11,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 11,
    "costPrice": 0,
    "sellPrice": 0,
    "costTotal": 0,
@@ -1229,12 +1341,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 11,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 11,
    "costPrice": 4410,
    "sellPrice": 5300,
-   "costTotal": 0,
+   "costTotal": 48510,
    "sellTotal": 58300,
-   "profit": 58300
+   "profit": 9790
   },
   {
    "class": "13 JSS3",
@@ -1243,12 +1355,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 11,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 11,
    "costPrice": 4300,
    "sellPrice": 5160,
-   "costTotal": 0,
+   "costTotal": 47300,
    "sellTotal": 56760,
-   "profit": 56760
+   "profit": 9460
   },
   {
    "class": "13 JSS3",
@@ -1257,12 +1369,96 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 11,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 11,
    "costPrice": 5000,
    "sellPrice": 6000,
-   "costTotal": 0,
+   "costTotal": 55000,
    "sellTotal": 66000,
-   "profit": 66000
+   "profit": 11000
+  },
+  {
+   "class": "13 JSS3",
+   "subject": "ENGLISH LITERATURE 1",
+   "textbook": "SEED OF DUST",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 11,
+   "availableQty": 0,
+   "neededQty": 11,
+   "costPrice": 850,
+   "sellPrice": 1020,
+   "costTotal": 9350,
+   "sellTotal": 11220,
+   "profit": 1870
+  },
+  {
+   "class": "13 JSS3",
+   "subject": "ENGLISH LITERATURE 2",
+   "textbook": "UNWRITTEN PATH",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 11,
+   "availableQty": 0,
+   "neededQty": 11,
+   "costPrice": 700,
+   "sellPrice": 840,
+   "costTotal": 7700,
+   "sellTotal": 9240,
+   "profit": 1540
+  },
+  {
+   "class": "13 JSS3",
+   "subject": "ENGLISH LITERATURE 3",
+   "textbook": "THE COMPASS WITHIN AND OTHER POEMS",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 11,
+   "availableQty": 0,
+   "neededQty": 11,
+   "costPrice": 850,
+   "sellPrice": 1020,
+   "costTotal": 9350,
+   "sellTotal": 11220,
+   "profit": 1870
+  },
+  {
+   "class": "13 JSS3",
+   "subject": "YORUBA LITERATURE 1",
+   "textbook": "ENI AWIFUN",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 11,
+   "availableQty": 0,
+   "neededQty": 11,
+   "costPrice": 850,
+   "sellPrice": 1020,
+   "costTotal": 9350,
+   "sellTotal": 11220,
+   "profit": 1870
+  },
+  {
+   "class": "13 JSS3",
+   "subject": "YORUBA LITERATURE 2",
+   "textbook": "ASIDE OBI",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 11,
+   "availableQty": 0,
+   "neededQty": 11,
+   "costPrice": 850,
+   "sellPrice": 1020,
+   "costTotal": 9350,
+   "sellTotal": 11220,
+   "profit": 1870
+  },
+  {
+   "class": "13 JSS3",
+   "subject": "YORUBA LITERATURE 3",
+   "textbook": "ORELOPE ATI AWON EWI MIRAN",
+   "provider": "EXCEEDING GRACE",
+   "studentQty": 11,
+   "availableQty": 0,
+   "neededQty": 11,
+   "costPrice": 850,
+   "sellPrice": 1020,
+   "costTotal": 9350,
+   "sellTotal": 11220,
+   "profit": 1870
   },
   {
    "class": "14 SSS1",
@@ -1271,12 +1467,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 1,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 1,
    "costPrice": 4750,
    "sellPrice": 5700,
-   "costTotal": 0,
+   "costTotal": 4750,
    "sellTotal": 5700,
-   "profit": 5700
+   "profit": 950
   },
   {
    "class": "14 SSS1",
@@ -1285,12 +1481,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 1,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 1,
    "costPrice": 5150,
    "sellPrice": 6180,
-   "costTotal": 0,
+   "costTotal": 5150,
    "sellTotal": 6180,
-   "profit": 6180
+   "profit": 1030
   },
   {
    "class": "15 SSS2",
@@ -1299,12 +1495,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 7,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 7,
    "costPrice": 4750,
    "sellPrice": 5700,
-   "costTotal": 0,
+   "costTotal": 33250,
    "sellTotal": 39900,
-   "profit": 39900
+   "profit": 6650
   },
   {
    "class": "15 SSS2",
@@ -1313,12 +1509,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 7,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 7,
    "costPrice": 5150,
    "sellPrice": 6180,
-   "costTotal": 0,
+   "costTotal": 36050,
    "sellTotal": 43260,
-   "profit": 43260
+   "profit": 7210
   },
   {
    "class": "16 SSS3",
@@ -1327,12 +1523,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 1,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 1,
    "costPrice": 4750,
    "sellPrice": 5700,
-   "costTotal": 0,
+   "costTotal": 4750,
    "sellTotal": 5700,
-   "profit": 5700
+   "profit": 950
   },
   {
    "class": "16 SSS3",
@@ -1341,12 +1537,12 @@
    "provider": "WONSEBOLATAN",
    "studentQty": 1,
    "availableQty": 0,
-   "neededQty": 0,
+   "neededQty": 1,
    "costPrice": 5150,
    "sellPrice": 6180,
-   "costTotal": 0,
+   "costTotal": 5150,
    "sellTotal": 6180,
-   "profit": 6180
+   "profit": 1030
   }
  ],
  "notebooksAndStationery": [
