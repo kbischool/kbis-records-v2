@@ -36020,7 +36020,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 44280,
+  "latestBalance": 0,
   "sessions": [
    {
     "session": "2024-2025",
@@ -36170,14 +36170,14 @@
      {
       "term": "1st Term",
       "class": "PLAYGROUP 2",
-      "total": 44280,
-      "paid": 0,
-      "balance": 44280,
-      "discount": 0.25,
+      "total": 42930,
+      "paid": 42930,
+      "balance": 0,
+      "discount": 0.3,
       "items": {
-       "TUITION": 19500,
+       "TUITION": 18200,
        "PTA&EXAM": 4000,
-       "REPORT_CARD": 750,
+       "REPORT_CARD": 700,
        "TEXTBOOKS": 12480,
        "NB & STAT": 7550
       },
@@ -36202,7 +36202,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 36390,
+  "latestBalance": 29320,
   "sessions": [
    {
     "session": "2025-2026",
@@ -36262,8 +36262,8 @@
       "term": "1st Term",
       "class": "PLAYGROUP 1",
       "total": 36390,
-      "paid": 0,
-      "balance": 36390,
+      "paid": 7070,
+      "balance": 29320,
       "discount": 0.25,
       "items": {
        "TUITION": 19500,
