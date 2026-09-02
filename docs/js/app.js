@@ -600,9 +600,14 @@ function classCardHtml(c) {
         ${icon('chevron', 'chev')}
       </div>
       <div class="class-body">
-        <div class="receipt">
-          ${items.map(([k, v]) => `<div class="receipt-row"><span class="k">${escapeHtml(prettyLabel(k))}</span><span class="v">${naira(v)}</span></div>`).join('')}
-          <div class="receipt-row total"><span class="k">Grand Total</span><span class="v">${naira(c.grandTotal)}</span></div>
+        <div class="data-table-wrap">
+          <table class="data-table">
+            <thead><tr><th>Item</th><th>Amount</th></tr></thead>
+            <tbody>
+              ${items.map(([k, v]) => `<tr><td>${escapeHtml(prettyLabel(k))}</td><td>${naira(v)}</td></tr>`).join('')}
+              <tr class="total"><td>Grand Total</td><td>${naira(c.grandTotal)}</td></tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -653,17 +658,30 @@ function applyStockQuery(rows) {
   return rows.filter((r) => `${r.class} ${r.subject} ${r.textbook} ${r.provider}`.toLowerCase().includes(q));
 }
 
-function miniStats(items) {
-  // items: array of [value, label], rendered as a 3-up stat grid (blank cells padded)
-  const padded = items.slice();
-  while (padded.length % 3 !== 0) padded.push(['', '']);
-  let html = '';
-  for (let i = 0; i < padded.length; i += 3) {
-    html += `<div class="term-totals" style="margin:8px 0 4px">
-      ${padded.slice(i, i + 3).map(([v, l]) => `<div class="t"><b>${v}</b><span>${l}</span></div>`).join('')}
-    </div>`;
-  }
-  return html;
+// Shared groupings, reused by both the render functions and the share-text builders.
+function textbooksByClass() {
+  const byClass = {};
+  (STORE.stock.textbooks || []).forEach((r) => { (byClass[r.class] ||= []).push(r); });
+  return byClass;
+}
+function stationeryByClass() {
+  const byClass = {};
+  (STORE.stock.notebooksAndStationery || []).forEach((r) => {
+    Object.entries(r.qtyByClass || {}).forEach(([klass, qty]) => {
+      if (!qty) return;
+      (byClass[klass] ||= []).push({ item: r.item, sellingPrice: r.sellingPrice, qty, total: (r.sellingPrice || 0) * qty });
+    });
+  });
+  return byClass;
+}
+function sortedStockClasses(byClass) {
+  return Object.keys(byClass).sort((a, b) => {
+    const ia = STOCK_CLASS_ORDER.indexOf(a), ib = STOCK_CLASS_ORDER.indexOf(b);
+    if (ia === -1 && ib === -1) return a.localeCompare(b);
+    if (ia === -1) return 1;
+    if (ib === -1) return -1;
+    return ia - ib;
+  });
 }
 
 function textbookGroupsHtml(rows) {
@@ -674,25 +692,30 @@ function textbookGroupsHtml(rows) {
   }
   const byClass = {};
   rows.forEach((r) => { (byClass[r.class] ||= []).push(r); });
-  return Object.entries(byClass).map(([klass, items]) => `
-    <div class="class-card" data-class-toggle>
-      <div class="class-head">
-        <span class="name">${escapeHtml(klass || '—')}</span>
-        <span class="gt">${items.length} book${items.length === 1 ? '' : 's'}</span>
-        ${icon('chevron', 'chev')}
-      </div>
-      <div class="class-body">
-        ${items.map((i) => `
-          <div style="border-top:1.5px dashed var(--line); padding:12px 0">
-            <div style="font-weight:700; color:var(--navy); font-size:13.5px">${escapeHtml(i.textbook)}</div>
-            <div style="font-size:11.5px; color:var(--ink-faint); font-weight:600; margin-top:2px">${escapeHtml(i.subject)}</div>
-            <div class="receipt-row"><span class="k">Selling Price</span><span class="v">${naira(i.sellPrice)}</span></div>
-            <div class="receipt-row total"><span class="k">Total Selling Cost</span><span class="v">${naira(i.sellTotal)}</span></div>
+  return Object.entries(byClass).map(([klass, items]) => {
+    const total = items.reduce((sum, i) => sum + (i.sellPrice || 0), 0);
+    return `
+      <div class="class-card" data-class-toggle>
+        <div class="class-head">
+          <span class="name">${escapeHtml(klass || '—')}</span>
+          <span class="gt">${naira(total)}</span>
+          <button class="icon-btn" type="button" data-share-textbooks="${escapeHtml(klass)}" title="Share this class's textbook list" aria-label="Share this class's textbook list">${icon('share')}</button>
+          ${icon('chevron', 'chev')}
+        </div>
+        <div class="class-body">
+          <div class="data-table-wrap">
+            <table class="data-table">
+              <thead><tr><th>Book</th><th>Selling Price</th></tr></thead>
+              <tbody>
+                ${items.map((i) => `<tr><td>${escapeHtml(i.textbook)}<small>${escapeHtml(i.subject)}</small></td><td>${naira(i.sellPrice)}</td></tr>`).join('')}
+                <tr class="total"><td>Total</td><td>${naira(total)}</td></tr>
+              </tbody>
+            </table>
           </div>
-        `).join('')}
+        </div>
       </div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
 }
 
 function uniformsHtml(groups) {
@@ -704,8 +727,13 @@ function uniformsHtml(groups) {
         ${icon('chevron', 'chev')}
       </div>
       <div class="class-body">
-        <div class="receipt">
-          ${g.items.map((i) => `<div class="receipt-row"><span class="k">${escapeHtml(i.item)}</span><span class="v">${naira(i.costPrice)}</span></div>`).join('')}
+        <div class="data-table-wrap">
+          <table class="data-table">
+            <thead><tr><th>Item</th><th>Cost Price</th></tr></thead>
+            <tbody>
+              ${g.items.map((i) => `<tr><td>${escapeHtml(i.item)}</td><td>${naira(i.costPrice)}</td></tr>`).join('')}
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -717,45 +745,32 @@ function stationeryByClassHtml(rows) {
 
   // Regroup the item-centric sheet (each item lists a qty per class) into a
   // class-centric view: for each class, the materials its students need,
-  // each item's selling price, and that item's total selling cost for the class.
-  const byClass = {};
-  rows.forEach((r) => {
-    Object.entries(r.qtyByClass || {}).forEach(([klass, qty]) => {
-      if (!qty) return;
-      (byClass[klass] ||= []).push({
-        item: r.item,
-        sellingPrice: r.sellingPrice,
-        qty,
-        total: (r.sellingPrice || 0) * qty,
-      });
-    });
-  });
-
-  const classes = Object.keys(byClass).sort((a, b) => {
-    const ia = STOCK_CLASS_ORDER.indexOf(a), ib = STOCK_CLASS_ORDER.indexOf(b);
-    if (ia === -1 && ib === -1) return a.localeCompare(b);
-    if (ia === -1) return 1;
-    if (ib === -1) return -1;
-    return ia - ib;
-  });
+  // each item's unit selling price and qty, and that item's total selling
+  // cost per student for the class.
+  const byClass = stationeryByClass();
+  const classes = sortedStockClasses(byClass);
 
   return classes.map((klass) => {
     const items = byClass[klass];
+    const total = items.reduce((sum, i) => sum + i.total, 0);
     return `
       <div class="class-card" data-class-toggle>
         <div class="class-head">
           <span class="name">${escapeHtml(STOCK_CLASS_LABELS[klass] || klass)}</span>
-          <span class="gt">${items.length} item${items.length === 1 ? '' : 's'}</span>
+          <span class="gt">${naira(total)}</span>
+          <button class="icon-btn" type="button" data-share-stationery="${escapeHtml(klass)}" title="Share this class's stationery list" aria-label="Share this class's stationery list">${icon('share')}</button>
           ${icon('chevron', 'chev')}
         </div>
         <div class="class-body">
-          ${items.map((i) => `
-            <div style="border-top:1.5px dashed var(--line); padding:12px 0">
-              <div style="font-weight:700; color:var(--navy); font-size:13.5px">${escapeHtml(i.item)}</div>
-              <div class="receipt-row"><span class="k">Selling Price</span><span class="v">${naira(i.sellingPrice)}</span></div>
-              <div class="receipt-row total"><span class="k">Total Selling Cost</span><span class="v">${naira(i.total)}</span></div>
-            </div>
-          `).join('')}
+          <div class="data-table-wrap">
+            <table class="data-table">
+              <thead><tr><th>Item</th><th>Qty</th><th>Unit Price</th><th>Total</th></tr></thead>
+              <tbody>
+                ${items.map((i) => `<tr><td>${escapeHtml(i.item)}</td><td>${i.qty}</td><td>${naira(i.sellingPrice)}</td><td>${naira(i.total)}</td></tr>`).join('')}
+                <tr class="total"><td colspan="3">Total</td><td>${naira(total)}</td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     `;
@@ -765,20 +780,39 @@ function stationeryByClassHtml(rows) {
 function stockOrdersHtml(rows) {
   if (!rows.length) return emptyStateHtml('No stock-order data loaded', 'Add STOCKS.xlsx to the source folder and rebuild the data.');
   return `
-    <div class="card card-pad">
-      ${rows.map((i) => `
-        <div style="border-top:1.5px dashed var(--line); padding:12px 0">
-          <div style="font-weight:700; color:var(--navy); font-size:13.5px">${escapeHtml(i.item)}</div>
-          ${miniStats([
-            [i.availableQty, 'Available'], [i.neededQty, 'Needed'], [naira(i.costPerItem), 'Cost / Item'],
-          ])}
-          <div class="receipt-row"><span class="k">Total Cost</span><span class="v">${naira(i.totalCost)}</span></div>
-          <div class="receipt-row"><span class="k">Amount Paid</span><span class="v">${naira(i.amountPaid)}</span></div>
-          <div class="receipt-row total"><span class="k">Balance</span><span class="v">${naira(i.balance)}</span></div>
-        </div>
-      `).join('')}
+    <div class="data-table-wrap">
+      <table class="data-table">
+        <thead><tr><th>Item</th><th>Available</th><th>Needed</th><th>Cost/Item</th><th>Total Cost</th><th>Paid</th><th>Balance</th></tr></thead>
+        <tbody>
+          ${rows.map((i) => `<tr><td>${escapeHtml(i.item)}</td><td>${i.availableQty}</td><td>${i.neededQty}</td><td>${naira(i.costPerItem)}</td><td>${naira(i.totalCost)}</td><td>${naira(i.amountPaid)}</td><td>${naira(i.balance)}</td></tr>`).join('')}
+        </tbody>
+      </table>
     </div>
   `;
+}
+
+function textbookClassShareText(klass, items) {
+  const total = items.reduce((sum, i) => sum + (i.sellPrice || 0), 0);
+  return [
+    KBIS_CONFIG.SCHOOL_NAME,
+    `Textbook List — ${klass}`,
+    '',
+    ...items.map((i) => `${i.textbook} (${i.subject}): ${naira(i.sellPrice)}`),
+    '',
+    `Total: ${naira(total)}`,
+  ].join('\n');
+}
+
+function stationeryClassShareText(klass, items) {
+  const total = items.reduce((sum, i) => sum + i.total, 0);
+  return [
+    KBIS_CONFIG.SCHOOL_NAME,
+    `Notebooks & Stationery List — ${STOCK_CLASS_LABELS[klass] || klass}`,
+    '',
+    ...items.map((i) => `${i.item} x${i.qty}: ${naira(i.total)}`),
+    '',
+    `Total: ${naira(total)}`,
+  ].join('\n');
 }
 
 function renderStockListOnly() {
@@ -815,6 +849,49 @@ function mergedSalaryByStaff() {
   return byStaff;
 }
 
+// Column definitions for the per-staff salary table, in display order.
+// "always" columns show even if empty for this staff; the rest only appear
+// if at least one of the staff's months actually has that field.
+const SALARY_FIELD_DEFS = [
+  { key: 'monthYear', label: 'Month', always: true, type: 'text' },
+  { key: 'basicSalary', label: 'Basic Salary', always: true, type: 'naira' },
+  { key: 'taxDeduction', label: 'Tax Ded.', type: 'naira' },
+  { key: 'monthlyDeduction', label: '10% Ded.', type: 'naira' },
+  { key: 'deduction', label: 'Deduction', type: 'naira' },
+  { key: 'outstanding', label: 'Outstanding', type: 'naira' },
+  { key: 'extraBonus', label: 'Bonus', type: 'naira' },
+  { key: 'amountPayable', label: 'Payable', always: true, type: 'naira' },
+  { key: 'paid', label: 'Paid', type: 'naira' },
+  { key: 'balance', label: 'Balance', type: 'naira' },
+  { key: 'bank', label: 'Bank', type: 'text' },
+  { key: 'accountNumber', label: 'Acct No.', type: 'text' },
+  { key: 'contract', label: 'Contract', type: 'text' },
+  { key: 'dateDue', label: 'Date Due', type: 'text' },
+];
+
+function salaryTableHtml(months) {
+  const cols = SALARY_FIELD_DEFS.filter((f) => f.always || months.some((m) => m[f.key] != null && m[f.key] !== ''));
+  return `
+    <div class="data-table-wrap">
+      <table class="data-table">
+        <thead><tr>${cols.map((f) => `<th>${f.label}</th>`).join('')}</tr></thead>
+        <tbody>
+          ${months.map((m) => `
+            <tr>
+              ${cols.map((f) => {
+                if (f.key === 'monthYear') return `<td>${escapeHtml(m.month || '—')}${m.year ? ' ' + escapeHtml(m.year) : ''}</td>`;
+                const v = m[f.key];
+                if (v == null || v === '') return '<td>—</td>';
+                return `<td>${f.type === 'naira' ? naira(v) : escapeHtml(String(v))}</td>`;
+              }).join('')}
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
 function viewSalary() {
   return `
     <div class="fade-in">
@@ -847,7 +924,7 @@ function salaryPanelHtml() {
           ${icon('chevron', 'chev')}
         </div>
         <div class="class-body">
-          ${months.map((m) => salaryMonthHtml(m)).join('')}
+          ${salaryTableHtml(months)}
         </div>
       </div>
     `;
@@ -859,28 +936,6 @@ function renderSalaryListOnly() {
   if (!panel) return;
   panel.innerHTML = salaryPanelHtml();
   $all('[data-class-toggle]', panel).forEach((c) => c.querySelector('.class-head').addEventListener('click', () => c.classList.toggle('open')));
-}
-
-function salaryMonthHtml(m) {
-  const stats = [[naira(m.basicSalary), 'Basic Salary'], [naira(m.taxDeduction), 'Tax Deduction']];
-  if (m.monthlyDeduction != null) stats.push([naira(m.monthlyDeduction), '10% Deduction']);
-  if (m.deduction != null) stats.push([naira(m.deduction), 'Deduction']);
-  if (m.outstanding != null) stats.push([naira(m.outstanding), 'Outstanding']);
-  stats.push([naira(m.extraBonus), 'Extra Bonus'], [naira(m.amountPayable), 'Amount Payable']);
-  if (m.paid != null) stats.push([naira(m.paid), 'Paid']);
-  if (m.balance != null) stats.push([naira(m.balance), 'Balance']);
-
-  return `
-    <div style="border-top:1.5px dashed var(--line); padding:12px 0">
-      <div style="display:flex; justify-content:space-between; align-items:baseline; gap:10px">
-        <div style="font-weight:700; color:var(--navy); font-size:13px">${escapeHtml(m.month || '—')}${m.year ? ' ' + escapeHtml(m.year) : ''}</div>
-        <div style="font-size:11.5px; color:var(--ink-faint); font-weight:600; text-align:right">${escapeHtml(m.bank || '')}${m.accountNumber ? ' &middot; ' + escapeHtml(m.accountNumber) : ''}</div>
-      </div>
-      ${m.contract ? `<div style="font-size:11px; color:var(--ink-faint); margin-top:2px">${escapeHtml(m.contract)}</div>` : ''}
-      ${miniStats(stats)}
-      ${m.dateDue ? `<div class="receipt-row"><span class="k">Date Due</span><span class="v">${escapeHtml(m.dateDue)}</span></div>` : ''}
-    </div>
-  `;
 }
 
 function viewSync() {
@@ -988,6 +1043,18 @@ function wireView(route) {
     $all('[data-class-toggle]').forEach((c) => c.querySelector('.class-head').addEventListener('click', () => c.classList.toggle('open')));
     const search = $('#stock-search');
     search && search.addEventListener('input', debounce((e) => { stockQuery = e.target.value; renderStockListOnly(); }, 180));
+    $all('[data-share-textbooks]').forEach((b) => b.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const klass = b.dataset.shareTextbooks;
+      const items = textbooksByClass()[klass] || [];
+      shareText(`Textbook List — ${klass}`, textbookClassShareText(klass, items));
+    }));
+    $all('[data-share-stationery]').forEach((b) => b.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const klass = b.dataset.shareStationery;
+      const items = stationeryByClass()[klass] || [];
+      shareText(`Stationery List — ${STOCK_CLASS_LABELS[klass] || klass}`, stationeryClassShareText(klass, items));
+    }));
   }
 
   if (route === 'salary') {

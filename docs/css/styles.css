@@ -395,6 +395,18 @@ main{ flex:1; width:100%; max-width: var(--max-w); margin:0 auto; padding: 18px 
 .receipt-row.total{ border-bottom:none; border-top:1.5px solid var(--line); margin-top:4px; padding-top:11px; }
 .receipt-row.total .k, .receipt-row.total .v{ font-weight:800; color:var(--navy); font-size:14px; }
 
+.data-table-wrap{ overflow-x:auto; -webkit-overflow-scrolling:touch; margin-top:2px; }
+.data-table{ width:100%; border-collapse:collapse; font-size:12.5px; }
+.data-table th{
+  text-align:left; font-size:9.5px; font-weight:800; text-transform:uppercase; letter-spacing:.3px;
+  color:var(--ink-faint); padding:0 8px 6px; border-bottom:1.5px solid var(--line); white-space:nowrap;
+}
+.data-table td{ padding:7px 8px; border-bottom:1px dotted var(--line-soft); color:var(--ink-soft); font-weight:600; vertical-align:top; }
+.data-table tbody tr:last-of-type td{ border-bottom:none; }
+.data-table th:not(:first-child), .data-table td:not(:first-child){ text-align:right; font-family:var(--font-mono); white-space:nowrap; }
+.data-table tr.total td{ border-top:1.5px solid var(--line); border-bottom:none; padding-top:9px; font-weight:800; color:var(--navy); font-size:13px; }
+.data-table td small{ display:block; font-family:var(--font-body); font-weight:600; color:var(--ink-faint); font-size:10.5px; margin-top:2px; }
+
 .ref-note{ font-size:11.5px; color:var(--ink-faint); margin-top:10px; padding-top:10px; border-top:1px solid var(--line-soft); }
 
 /* =========================== Fees / invoice ============================ */
