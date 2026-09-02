@@ -70,6 +70,20 @@ function classShort(c) {
   return map[c] || c;
 }
 
+// Class order + display labels for the Notebooks & Stationery tab, whose
+// source sheet uses short class codes (PG1, NUR1, PRY3, …) rather than the
+// full names used on the Textbooks sheet.
+const STOCK_CLASS_ORDER = [
+  'CRECHE', 'PG1', 'PG2', 'NUR1', 'NUR2',
+  'PRY1', 'PRY2', 'PRY3', 'PRY4', 'PRY5',
+  'JSS1', 'JSS2', 'JSS3', 'SSS1', 'SSS2', 'SSS3',
+];
+const STOCK_CLASS_LABELS = {
+  CRECHE: 'Creche', PG1: 'Playgroup 1', PG2: 'Playgroup 2', NUR1: 'Nursery 1', NUR2: 'Nursery 2',
+  PRY1: 'Primary 1', PRY2: 'Primary 2', PRY3: 'Primary 3', PRY4: 'Primary 4', PRY5: 'Primary 5',
+  JSS1: 'JSS 1', JSS2: 'JSS 2', JSS3: 'JSS 3', SSS1: 'SSS 1', SSS2: 'SSS 2', SSS3: 'SSS 3',
+};
+
 async function sha256Hex(text) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
   return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, '0')).join('');
@@ -84,8 +98,7 @@ const STORE = {
 };
 let stockTab = 'uniforms'; // 'uniforms' | 'textbooks' | 'stationery' | 'orders' — active sub-tab on the Stock page
 let stockQuery = ''; // textbook search text on the Stock page
-let salaryYear = null; // active year chip on the Salary page (set on first render)
-let salaryCategory = null; // active category chip on the Salary page (set on first render)
+let salaryQuery = ''; // staff-name search text on the Salary page
 
 /* -------------------------------- auth gate ------------------------------ */
 const Auth = {
@@ -427,20 +440,20 @@ function viewStudents() {
         <input class="input" id="stu-search" placeholder="Search by name…" value="${escapeHtml(STORE.filters.q)}">
       </div>
 
-      <div class="chip-row" style="margin-bottom:8px">
-        <button class="chip ${status === 'all' ? 'active' : ''}" data-filter="status" data-val="all">All</button>
-        <button class="chip ${status === 'active' ? 'active' : ''}" data-filter="status" data-val="active">Enrolled</button>
-        <button class="chip ${status === 'left' ? 'active' : ''}" data-filter="status" data-val="left">Past</button>
-      </div>
-
-      <div class="chip-row" style="margin-bottom:8px">
-        <button class="chip ${session === 'all' ? 'active' : ''}" data-filter="session" data-val="all">Any session</button>
-        ${(m.sessions || []).slice().reverse().map((s) => `<button class="chip ${session === s ? 'active' : ''}" data-filter="session" data-val="${s}">${s}</button>`).join('')}
-      </div>
-
-      <div class="chip-row" style="margin-bottom:18px">
-        <button class="chip ${klass === 'all' ? 'active' : ''}" data-filter="klass" data-val="all">Any class</button>
-        ${(m.classes || []).map((c) => `<button class="chip ${klass === c ? 'active' : ''}" data-filter="klass" data-val="${c}">${classShort(c)}</button>`).join('')}
+      <div class="filter-row" style="margin-bottom:18px">
+        <select class="input" data-filter="status">
+          <option value="all" ${status === 'all' ? 'selected' : ''}>All students</option>
+          <option value="active" ${status === 'active' ? 'selected' : ''}>Enrolled</option>
+          <option value="left" ${status === 'left' ? 'selected' : ''}>Past</option>
+        </select>
+        <select class="input" data-filter="session">
+          <option value="all" ${session === 'all' ? 'selected' : ''}>Any session</option>
+          ${(m.sessions || []).slice().reverse().map((s) => `<option value="${s}" ${session === s ? 'selected' : ''}>${s}</option>`).join('')}
+        </select>
+        <select class="input" data-filter="klass">
+          <option value="all" ${klass === 'all' ? 'selected' : ''}>Any class</option>
+          ${(m.classes || []).map((c) => `<option value="${c}" ${klass === c ? 'selected' : ''}>${classShort(c)}</option>`).join('')}
+        </select>
       </div>
 
       <div id="stu-list">
@@ -601,12 +614,14 @@ function viewStock() {
   return `
     <div class="fade-in">
       <div class="section-head" style="margin-top:0"><h2>Stock</h2><span class="hint">Everything from STOCKS.xlsx</span></div>
-      <p style="margin-bottom:16px">Full detail from every sheet — cost price, selling price, totals, profit, quantities, amounts paid and balances.</p>
-      <div class="chip-row" style="margin-bottom:18px">
-        <button class="chip ${stockTab === 'uniforms' ? 'active' : ''}" data-stock-tab="uniforms">Uniforms</button>
-        <button class="chip ${stockTab === 'textbooks' ? 'active' : ''}" data-stock-tab="textbooks">Textbooks</button>
-        <button class="chip ${stockTab === 'stationery' ? 'active' : ''}" data-stock-tab="stationery">Notebooks &amp; Stationery</button>
-        <button class="chip ${stockTab === 'orders' ? 'active' : ''}" data-stock-tab="orders">Stock Orders</button>
+      <p style="margin-bottom:16px">Textbooks and Notebooks &amp; Stationery: each item's selling price and total cost per class. Uniforms and Stock Orders keep their full detail.</p>
+      <div class="filter-row" style="margin-bottom:18px">
+        <select class="input" id="stock-tab-select">
+          <option value="uniforms" ${stockTab === 'uniforms' ? 'selected' : ''}>Uniforms</option>
+          <option value="textbooks" ${stockTab === 'textbooks' ? 'selected' : ''}>Textbooks</option>
+          <option value="stationery" ${stockTab === 'stationery' ? 'selected' : ''}>Notebooks &amp; Stationery</option>
+          <option value="orders" ${stockTab === 'orders' ? 'selected' : ''}>Stock Orders</option>
+        </select>
       </div>
       <div id="stock-panel">${stockPanelHtml()}</div>
     </div>
@@ -627,7 +642,7 @@ function stockPanelHtml() {
       <div id="stock-textbook-list">${textbookGroupsHtml(applyStockQuery(rows))}</div>
     `;
   }
-  if (stockTab === 'stationery') return stationeryHtml(data.notebooksAndStationery || []);
+  if (stockTab === 'stationery') return stationeryByClassHtml(data.notebooksAndStationery || []);
   if (stockTab === 'orders') return stockOrdersHtml(data.stock || []);
   return uniformsHtml(data.uniforms || []);
 }
@@ -670,13 +685,9 @@ function textbookGroupsHtml(rows) {
         ${items.map((i) => `
           <div style="border-top:1.5px dashed var(--line); padding:12px 0">
             <div style="font-weight:700; color:var(--navy); font-size:13.5px">${escapeHtml(i.textbook)}</div>
-            <div style="font-size:11.5px; color:var(--ink-faint); font-weight:600; margin-top:2px">${escapeHtml(i.subject)}${i.provider ? ' &middot; ' + escapeHtml(i.provider) : ''}</div>
-            ${miniStats([
-              [naira(i.costPrice), 'Cost Price'], [naira(i.sellPrice), 'Sell Price'], [naira(i.profit), 'Profit'],
-              [i.studentQty, 'Student Qty'], [i.availableQty, 'Available Qty'], [i.neededQty, 'Needed Qty'],
-            ])}
-            <div class="receipt-row"><span class="k">Cost Total</span><span class="v">${naira(i.costTotal)}</span></div>
-            <div class="receipt-row"><span class="k">Sell Total</span><span class="v">${naira(i.sellTotal)}</span></div>
+            <div style="font-size:11.5px; color:var(--ink-faint); font-weight:600; margin-top:2px">${escapeHtml(i.subject)}</div>
+            <div class="receipt-row"><span class="k">Selling Price</span><span class="v">${naira(i.sellPrice)}</span></div>
+            <div class="receipt-row total"><span class="k">Total Selling Cost</span><span class="v">${naira(i.sellTotal)}</span></div>
           </div>
         `).join('')}
       </div>
@@ -701,29 +712,54 @@ function uniformsHtml(groups) {
   `).join('');
 }
 
-function stationeryHtml(rows) {
+function stationeryByClassHtml(rows) {
   if (!rows.length) return emptyStateHtml('No stationery data loaded', 'Add STOCKS.xlsx to the source folder and rebuild the data.');
-  return `
-    <div class="card card-pad">
-      ${rows.map((i) => {
-        const classEntries = Object.entries(i.qtyByClass || {});
-        return `
-          <div style="border-top:1.5px dashed var(--line); padding:12px 0; margin-top:0">
-            <div class="receipt-row" style="border-bottom:none; padding-bottom:2px">
-              <span class="k" style="font-weight:700; color:var(--navy)">${escapeHtml(i.item)}</span>
+
+  // Regroup the item-centric sheet (each item lists a qty per class) into a
+  // class-centric view: for each class, the materials its students need,
+  // each item's selling price, and that item's total selling cost for the class.
+  const byClass = {};
+  rows.forEach((r) => {
+    Object.entries(r.qtyByClass || {}).forEach(([klass, qty]) => {
+      if (!qty) return;
+      (byClass[klass] ||= []).push({
+        item: r.item,
+        sellingPrice: r.sellingPrice,
+        qty,
+        total: (r.sellingPrice || 0) * qty,
+      });
+    });
+  });
+
+  const classes = Object.keys(byClass).sort((a, b) => {
+    const ia = STOCK_CLASS_ORDER.indexOf(a), ib = STOCK_CLASS_ORDER.indexOf(b);
+    if (ia === -1 && ib === -1) return a.localeCompare(b);
+    if (ia === -1) return 1;
+    if (ib === -1) return -1;
+    return ia - ib;
+  });
+
+  return classes.map((klass) => {
+    const items = byClass[klass];
+    return `
+      <div class="class-card" data-class-toggle>
+        <div class="class-head">
+          <span class="name">${escapeHtml(STOCK_CLASS_LABELS[klass] || klass)}</span>
+          <span class="gt">${items.length} item${items.length === 1 ? '' : 's'}</span>
+          ${icon('chevron', 'chev')}
+        </div>
+        <div class="class-body">
+          ${items.map((i) => `
+            <div style="border-top:1.5px dashed var(--line); padding:12px 0">
+              <div style="font-weight:700; color:var(--navy); font-size:13.5px">${escapeHtml(i.item)}</div>
+              <div class="receipt-row"><span class="k">Selling Price</span><span class="v">${naira(i.sellingPrice)}</span></div>
+              <div class="receipt-row total"><span class="k">Total Selling Cost</span><span class="v">${naira(i.total)}</span></div>
             </div>
-            <div class="receipt-row"><span class="k">Cost Price</span><span class="v">${naira(i.costPrice)}</span></div>
-            <div class="receipt-row"><span class="k">Selling Price</span><span class="v">${naira(i.sellingPrice)}</span></div>
-            ${classEntries.length ? `
-              <div style="font-size:11.5px; color:var(--ink-faint); font-weight:600; margin-top:6px">
-                Qty by class: ${classEntries.map(([k, v]) => `${escapeHtml(k)} (${v})`).join(' &middot; ')}
-              </div>
-            ` : ''}
-          </div>
-        `;
-      }).join('')}
-    </div>
-  `;
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 function stockOrdersHtml(rows) {
@@ -753,54 +789,76 @@ function renderStockListOnly() {
 }
 
 /* -------------------------------- salary view ------------------------------ */
-function capWord(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
+const MONTH_ORDER = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+];
+
+// Flatten every year × category sheet in STORE.salary into one list per staff
+// member, sorted chronologically from their first paid month to their last —
+// spanning every year and category (Primary/Secondary/Support) they appear in.
+function mergedSalaryByStaff() {
+  const byStaff = {};
+  Object.entries(STORE.salary || {}).forEach(([year, yearData]) => {
+    Object.values(yearData.categories || {}).forEach((records) => {
+      records.forEach((r) => {
+        (byStaff[r.name] ||= []).push({ ...r, year });
+      });
+    });
+  });
+  Object.values(byStaff).forEach((months) => {
+    months.sort((a, b) => {
+      if (a.year !== b.year) return a.year.localeCompare(b.year);
+      return MONTH_ORDER.indexOf(a.month) - MONTH_ORDER.indexOf(b.month);
+    });
+  });
+  return byStaff;
+}
 
 function viewSalary() {
-  const years = Object.keys(STORE.salary || {}).sort();
-  if (!salaryYear || !years.includes(salaryYear)) salaryYear = years[years.length - 1] || null;
-  const yearData = salaryYear ? STORE.salary[salaryYear] : null;
-  const categories = yearData ? Object.keys(yearData.categories) : [];
-  if (!salaryCategory || !categories.includes(salaryCategory)) salaryCategory = categories[0] || null;
-
   return `
     <div class="fade-in">
-      <div class="section-head" style="margin-top:0"><h2>Salary</h2><span class="hint">Every field, every month</span></div>
-      <p style="margin-bottom:16px">Full monthly payroll — basic salary, deductions, bonus, amount payable, paid and balance, per staff member.</p>
-      ${years.length ? `
-        <div class="chip-row" style="margin-bottom:${categories.length > 1 ? '10px' : '18px'}">
-          ${years.map((y) => `<button class="chip ${y === salaryYear ? 'active' : ''}" data-salary-year="${y}">${y}</button>`).join('')}
-        </div>
-      ` : ''}
-      ${categories.length > 1 ? `
-        <div class="chip-row" style="margin-bottom:18px">
-          ${categories.map((c) => `<button class="chip ${c === salaryCategory ? 'active' : ''}" data-salary-cat="${c}">${capWord(c)}</button>`).join('')}
-        </div>
-      ` : ''}
+      <div class="section-head" style="margin-top:0"><h2>Salary</h2><span class="hint">By staff member</span></div>
+      <p style="margin-bottom:16px">Every staff member, with their monthly pay from the first month they were paid through to the most recent.</p>
+      <div class="search-wrap" style="margin-bottom:14px">
+        ${icon('search')}
+        <input class="input" id="salary-search" placeholder="Search staff name…" value="${escapeHtml(salaryQuery)}">
+      </div>
       <div id="salary-panel">${salaryPanelHtml()}</div>
     </div>
   `;
 }
 
 function salaryPanelHtml() {
-  const yearData = salaryYear ? STORE.salary[salaryYear] : null;
-  const records = (yearData && salaryCategory) ? (yearData.categories[salaryCategory] || []) : [];
-  if (!records.length) return emptyStateHtml('No salary data loaded', 'Add SALARY.xlsx to the source folder and rebuild the data.');
+  const byStaff = mergedSalaryByStaff();
+  const q = salaryQuery.trim().toLowerCase();
+  const names = Object.keys(byStaff).sort((a, b) => a.localeCompare(b)).filter((n) => !q || n.toLowerCase().includes(q));
 
-  const byStaff = {};
-  records.forEach((r) => { (byStaff[r.name] ||= []).push(r); });
+  if (!Object.keys(byStaff).length) return emptyStateHtml('No salary data loaded', 'Add SALARY.xlsx to the source folder and rebuild the data.');
+  if (!names.length) return emptyStateHtml('No staff match', 'Try a different search term.');
 
-  return Object.entries(byStaff).map(([staffName, months]) => `
-    <div class="class-card" data-class-toggle>
-      <div class="class-head">
-        <span class="name">${escapeHtml(staffName)}</span>
-        <span class="gt">${months.length} month${months.length === 1 ? '' : 's'}</span>
-        ${icon('chevron', 'chev')}
+  return names.map((staffName) => {
+    const months = byStaff[staffName];
+    return `
+      <div class="class-card" data-class-toggle>
+        <div class="class-head">
+          <span class="name">${escapeHtml(staffName)}</span>
+          <span class="gt">${months.length} month${months.length === 1 ? '' : 's'}</span>
+          ${icon('chevron', 'chev')}
+        </div>
+        <div class="class-body">
+          ${months.map((m) => salaryMonthHtml(m)).join('')}
+        </div>
       </div>
-      <div class="class-body">
-        ${months.map((m) => salaryMonthHtml(m)).join('')}
-      </div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
+}
+
+function renderSalaryListOnly() {
+  const panel = $('#salary-panel');
+  if (!panel) return;
+  panel.innerHTML = salaryPanelHtml();
+  $all('[data-class-toggle]', panel).forEach((c) => c.querySelector('.class-head').addEventListener('click', () => c.classList.toggle('open')));
 }
 
 function salaryMonthHtml(m) {
@@ -815,7 +873,7 @@ function salaryMonthHtml(m) {
   return `
     <div style="border-top:1.5px dashed var(--line); padding:12px 0">
       <div style="display:flex; justify-content:space-between; align-items:baseline; gap:10px">
-        <div style="font-weight:700; color:var(--navy); font-size:13px">${escapeHtml(m.month || '—')}</div>
+        <div style="font-weight:700; color:var(--navy); font-size:13px">${escapeHtml(m.month || '—')}${m.year ? ' ' + escapeHtml(m.year) : ''}</div>
         <div style="font-size:11.5px; color:var(--ink-faint); font-weight:600; text-align:right">${escapeHtml(m.bank || '')}${m.accountNumber ? ' &middot; ' + escapeHtml(m.accountNumber) : ''}</div>
       </div>
       ${m.contract ? `<div style="font-size:11px; color:var(--ink-faint); margin-top:2px">${escapeHtml(m.contract)}</div>` : ''}
@@ -877,8 +935,8 @@ function wireView(route) {
   if (route === 'students') {
     const search = $('#stu-search');
     search && search.addEventListener('input', debounce((e) => { STORE.filters.q = e.target.value; renderListOnly(); }, 180));
-    $all('[data-filter]').forEach((chip) => chip.addEventListener('click', () => {
-      STORE.filters[chip.dataset.filter] = chip.dataset.val;
+    $all('select[data-filter]').forEach((sel) => sel.addEventListener('change', () => {
+      STORE.filters[sel.dataset.filter] = sel.value;
       render();
     }));
     $all('[data-student]').forEach((row) => {
@@ -925,16 +983,17 @@ function wireView(route) {
   }
 
   if (route === 'stock') {
-    $all('[data-stock-tab]').forEach((b) => b.addEventListener('click', () => { stockTab = b.dataset.stockTab; render(); }));
+    const tabSelect = $('#stock-tab-select');
+    tabSelect && tabSelect.addEventListener('change', () => { stockTab = tabSelect.value; render(); });
     $all('[data-class-toggle]').forEach((c) => c.querySelector('.class-head').addEventListener('click', () => c.classList.toggle('open')));
     const search = $('#stock-search');
     search && search.addEventListener('input', debounce((e) => { stockQuery = e.target.value; renderStockListOnly(); }, 180));
   }
 
   if (route === 'salary') {
-    $all('[data-salary-year]').forEach((b) => b.addEventListener('click', () => { salaryYear = b.dataset.salaryYear; salaryCategory = null; render(); }));
-    $all('[data-salary-cat]').forEach((b) => b.addEventListener('click', () => { salaryCategory = b.dataset.salaryCat; render(); }));
     $all('[data-class-toggle]').forEach((c) => c.querySelector('.class-head').addEventListener('click', () => c.classList.toggle('open')));
+    const search = $('#salary-search');
+    search && search.addEventListener('input', debounce((e) => { salaryQuery = e.target.value; renderSalaryListOnly(); }, 180));
   }
 
   if (route === 'sync') {

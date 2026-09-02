@@ -226,6 +226,9 @@ main{ flex:1; width:100%; max-width: var(--max-w); margin:0 auto; padding: 18px 
 .chip.active{ background:var(--navy); border-color:var(--navy); color:#fff; }
 .chip:hover:not(.active){ border-color:var(--sky); color:var(--sky-deep); }
 
+.filter-row{ display:grid; grid-template-columns:repeat(auto-fit, minmax(130px, 1fr)); gap:10px; }
+.filter-row select.input{ font-size:13.5px; padding:11px 12px; font-weight:600; }
+
 .icon-btn{
   flex:none; width:32px; height:32px; border-radius:50%; border:none; cursor:pointer;
   display:flex; align-items:center; justify-content:center; background:var(--sky-pale); color:var(--sky-deep);
