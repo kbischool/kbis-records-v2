@@ -75,14 +75,14 @@
     "PTA": 2000,
     "EXAM": 2000,
     "REPORT CARD": 1000,
-    "TEXTBOOKS": 24450,
+    "TEXTBOOKS": 24930,
     "NB & STAT": 10730,
     "UNIFORM": 16000,
     "HOODY": 8000,
     "SPORTSWEAR": 7000,
     "AFTERSCHOOL": 6000
    },
-   "grandTotal": 105180
+   "grandTotal": 105660
   },
   {
    "class": "PRIMARY 1",
@@ -93,14 +93,14 @@
     "EXAM": 2000,
     "REPORT CARD": 2500,
     "PRACTICALS": 5000,
-    "TEXTBOOKS": 25490,
+    "TEXTBOOKS": 25970,
     "NB & STAT": 11330,
     "UNIFORM": 16000,
     "HOODY": 8000,
     "SPORTSWEAR": 7000,
     "AFTERSCHOOL": 6000
    },
-   "grandTotal": 115320
+   "grandTotal": 115800
   },
   {
    "class": "PRIMARY 2",
@@ -111,14 +111,14 @@
     "EXAM": 2000,
     "REPORT CARD": 2500,
     "PRACTICALS": 5000,
-    "TEXTBOOKS": 25670,
+    "TEXTBOOKS": 26150,
     "NB & STAT": 11330,
     "UNIFORM": 16000,
     "HOODY": 8000,
     "SPORTSWEAR": 7000,
     "AFTERSCHOOL": 6000
    },
-   "grandTotal": 115500
+   "grandTotal": 115980
   },
   {
    "class": "PRIMARY 3",
@@ -129,14 +129,14 @@
     "EXAM": 2000,
     "REPORT CARD": 2500,
     "PRACTICALS": 5000,
-    "TEXTBOOKS": 26830,
+    "TEXTBOOKS": 27310,
     "NB & STAT": 13230,
     "UNIFORM": 16000,
     "HOODY": 8000,
     "SPORTSWEAR": 7000,
     "AFTERSCHOOL": 6000
    },
-   "grandTotal": 118560
+   "grandTotal": 119040
   },
   {
    "class": "PRIMARY 4",
@@ -147,14 +147,14 @@
     "EXAM": 2000,
     "REPORT CARD": 2500,
     "PRACTICALS": 5000,
-    "TEXTBOOKS": 26850,
+    "TEXTBOOKS": 27330,
     "NB & STAT": 13230,
     "UNIFORM": 16000,
     "HOODY": 8000,
     "SPORTSWEAR": 7000,
     "AFTERSCHOOL": 6000
    },
-   "grandTotal": 118580
+   "grandTotal": 119060
   },
   {
    "class": "PRIMARY 5",
