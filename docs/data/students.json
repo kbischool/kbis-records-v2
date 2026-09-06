@@ -7888,7 +7888,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 79830,
+  "latestBalance": 19830,
   "sessions": [
    {
     "session": "2025-2026",
@@ -7981,8 +7981,8 @@
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 2",
       "total": 79830,
-      "paid": 0,
-      "balance": 79830,
+      "paid": 60000,
+      "balance": 19830,
       "discount": 0,
       "items": {
        "TUITION": 33000,
@@ -14044,7 +14044,7 @@
   "firstSession": "2022-2023",
   "lastSession": "2026-2027",
   "sessionCount": 5,
-  "latestBalance": 79020,
+  "latestBalance": -1650,
   "sessions": [
    {
     "session": "2022-2023",
@@ -14340,14 +14340,14 @@
      {
       "term": "1st Term",
       "class": "PRIMARY 5",
-      "total": 79020,
-      "paid": 0,
-      "balance": 79020,
-      "discount": 0,
+      "total": 77370,
+      "paid": 79020,
+      "balance": -1650,
+      "discount": 0.05,
       "items": {
-       "TUITION": 28000,
+       "TUITION": 26600,
        "PTA&EXAM": 4000,
-       "PRACTICAL": 5000,
+       "PRACTICAL": 4750,
        "TEXTBOOKS": 28790,
        "NB & STAT": 13230
       },
@@ -14609,7 +14609,7 @@
   "firstSession": "2021-2022",
   "lastSession": "2026-2027",
   "sessionCount": 6,
-  "latestBalance": 82800,
+  "latestBalance": 40450,
   "sessions": [
    {
     "session": "2021-2022",
@@ -14955,8 +14955,8 @@
       "term": "1st Term",
       "class": "PRIMARY 1",
       "total": 82800,
-      "paid": 0,
-      "balance": 82800,
+      "paid": 42350,
+      "balance": 40450,
       "discount": 0,
       "items": {
        "TUITION": 28000,
@@ -32301,7 +32301,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 85900,
+  "latestBalance": 35900,
   "sessions": [
    {
     "session": "2024-2025",
@@ -32453,8 +32453,8 @@
       "term": "1st Term",
       "class": "NURSERY 2",
       "total": 85900,
-      "paid": 0,
-      "balance": 85900,
+      "paid": 50000,
+      "balance": 35900,
       "discount": 0,
       "items": {
        "TUITION": 26000,

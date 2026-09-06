@@ -61413,8 +61413,8 @@
      "outstanding": null,
      "extraBonus": 10000,
      "amountPayable": 59500,
-     "paid": 0,
-     "balance": 59500,
+     "paid": 59500,
+     "balance": 0,
      "dateDue": null
     },
     {
@@ -61583,8 +61583,8 @@
      "outstanding": null,
      "extraBonus": 10000,
      "amountPayable": 391150,
-     "paid": 331650,
-     "balance": 59500,
+     "paid": 391150,
+     "balance": 0,
      "dateDue": null
     },
     {
@@ -65699,8 +65699,8 @@
      "outstanding": null,
      "extraBonus": 11000,
      "amountPayable": 55550,
-     "paid": 30000,
-     "balance": 25550,
+     "paid": 55550,
+     "balance": 0,
      "dateDue": null
     },
     {
@@ -65716,8 +65716,8 @@
      "outstanding": null,
      "extraBonus": 5000,
      "amountPayable": 49550,
-     "paid": 0,
-     "balance": 49550,
+     "paid": 49550,
+     "balance": 0,
      "dateDue": null
     },
     {
@@ -65818,8 +65818,8 @@
      "outstanding": null,
      "extraBonus": 16000,
      "amountPayable": 398140,
-     "paid": 280870,
-     "balance": 117270,
+     "paid": 355970,
+     "balance": 42170,
      "dateDue": null
     }
    ],
