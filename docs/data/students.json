@@ -15820,7 +15820,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 45140,
+  "latestBalance": 5300,
   "sessions": [
    {
     "session": "2025-2026",
@@ -15898,8 +15898,8 @@
       "term": "1st Term",
       "class": "PLAYGROUP 1",
       "total": 45140,
-      "paid": 0,
-      "balance": 45140,
+      "paid": 39840,
+      "balance": 5300,
       "discount": 0,
       "items": {
        "TUITION": 26000,
@@ -16143,6 +16143,82 @@
        "PAY 1": 38500
       },
       "reference": {},
+      "deposits": {},
+      "extra": {}
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fasasi-nan",
+  "lastName": "Fasasi",
+  "firstName": "Nan",
+  "status": "active",
+  "currentClass": "SENIOR SECONDARY SCHOOL 1",
+  "firstSession": "2026-2027",
+  "lastSession": "2026-2027",
+  "sessionCount": 1,
+  "latestBalance": 6960,
+  "sessions": [
+   {
+    "session": "2026-2027",
+    "terms": [
+     {
+      "term": "1st Term",
+      "class": "JUNIOR SECONDARY SCHOOL 3",
+      "total": 102730,
+      "paid": 100000,
+      "balance": 2730,
+      "discount": 0.25,
+      "items": {
+       "AD_FORM": 2250,
+       "TUITION": 24750,
+       "PTA&EXAM": 5000,
+       "REPORT_CARD": 1500,
+       "PRACTICAL": 4500,
+       "TEXTBOOKS": 22400,
+       "NB & STAT": 14330,
+       "UNIFORM": 12000,
+       "HOODY": 8000,
+       "SPORTSWEAR": 8000
+      },
+      "reference": {
+       "AD-FORM": 3000,
+       "FULL TUITION": 33000,
+       "PTA/EXAM": 5000,
+       "REPORT CARD": 2000,
+       "PRACTICALS": 6000
+      },
+      "deposits": {},
+      "extra": {}
+     },
+     {
+      "term": "1st Term",
+      "class": "SENIOR SECONDARY SCHOOL 1",
+      "total": 106960,
+      "paid": 100000,
+      "balance": 6960,
+      "discount": 0.25,
+      "items": {
+       "AD_FORM": 2250,
+       "TUITION": 30000,
+       "PTA&EXAM": 5000,
+       "REPORT_CARD": 1500,
+       "PRACTICAL": 6000,
+       "TEXTBOOKS": 11880,
+       "NB & STAT": 14330,
+       "UNIFORM": 20000,
+       "HOODY": 8000,
+       "SPORTSWEAR": 8000
+      },
+      "reference": {
+       "AD-FORM": 3000,
+       "FULL TUITION": 40000,
+       "PTA/EXAM": 5000,
+       "REPORT CARD": 2000,
+       "PRACTICALS": 8000
+      },
       "deposits": {},
       "extra": {}
      }
@@ -17925,7 +18001,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 29640,
+  "latestBalance": 9640,
   "sessions": [
    {
     "session": "2025-2026",
@@ -17986,8 +18062,8 @@
       "term": "1st Term",
       "class": "PLAYGROUP 1",
       "total": 29640,
-      "paid": 0,
-      "balance": 29640,
+      "paid": 20000,
+      "balance": 9640,
       "discount": 0.5,
       "items": {
        "TUITION": 13000,
