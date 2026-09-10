@@ -29349,7 +29349,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 33140,
+  "latestBalance": -1350,
   "sessions": [
    {
     "session": "2025-2026",
@@ -29409,14 +29409,14 @@
      {
       "term": "1st Term",
       "class": "PLAYGROUP 1",
-      "total": 33140,
-      "paid": 0,
-      "balance": 33140,
-      "discount": 0,
+      "total": 31790,
+      "paid": 33140,
+      "balance": -1350,
+      "discount": 0.05,
       "items": {
-       "TUITION": 26000,
+       "TUITION": 24700,
        "PTA&EXAM": 4000,
-       "REPORT_CARD": 1000,
+       "REPORT_CARD": 950,
        "TEXTBOOKS": 6840,
        "NB & STAT": 5300,
        "OUTSTANDING": -10000
