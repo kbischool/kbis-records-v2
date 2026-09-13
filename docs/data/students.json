@@ -1014,7 +1014,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 50190,
+  "latestBalance": 20190,
   "sessions": [
    {
     "session": "2025-2026",
@@ -1101,8 +1101,8 @@
       "term": "1st Term",
       "class": "PLAYGROUP 2",
       "total": 50190,
-      "paid": 0,
-      "balance": 50190,
+      "paid": 30000,
+      "balance": 20190,
       "discount": 0.25,
       "items": {
        "TUITION": 19500,
@@ -10272,7 +10272,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 43140,
+  "latestBalance": 15140,
   "sessions": [
    {
     "session": "2025-2026",
@@ -10347,8 +10347,8 @@
       "term": "1st Term",
       "class": "PLAYGROUP 1",
       "total": 43140,
-      "paid": 0,
-      "balance": 43140,
+      "paid": 28000,
+      "balance": 15140,
       "discount": 0,
       "items": {
        "TUITION": 26000,
@@ -22061,11 +22061,11 @@
   "id": "ogunsanya-oluwaferanmi-blessed",
   "lastName": "Ogunsanya",
   "firstName": "Oluwaferanmi Blessed",
-  "status": "left",
-  "currentClass": "CRECHE",
+  "status": "active",
+  "currentClass": "PLAYGROUP 2",
   "firstSession": "2024-2025",
-  "lastSession": "2024-2025",
-  "sessionCount": 1,
+  "lastSession": "2026-2027",
+  "sessionCount": 2,
   "latestBalance": 0,
   "sessions": [
    {
@@ -22102,6 +22102,76 @@
       "reference": {
        "FULL TUITION": 23000
       },
+      "deposits": {},
+      "extra": {}
+     }
+    ]
+   },
+   {
+    "session": "2026-2027",
+    "terms": [
+     {
+      "term": "1st Term",
+      "class": "PLAYGROUP 2",
+      "total": 81330,
+      "paid": 81330,
+      "balance": 0,
+      "discount": 0.3,
+      "items": {
+       "AD_FORM": 1400,
+       "TUITION": 18200,
+       "PTA&EXAM": 4000,
+       "REPORT_CARD": 700,
+       "TEXTBOOKS": 12480,
+       "NB & STAT": 7550,
+       "UNIFORM": 16000,
+       "HOODY": 8000,
+       "SPORTSWEAR": 7000,
+       "AFTERSCHOOL": 6000
+      },
+      "reference": {
+       "AD-FORM": 2000,
+       "FULL TUITION": 26000,
+       "PTA/EXAM": 4000,
+       "REPORT CARD": 1000
+      },
+      "deposits": {},
+      "extra": {
+       "LESSON FEE PRY": 6000
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ogunsanya-opetosimi-grace",
+  "lastName": "Ogunsanya",
+  "firstName": "Opetosimi Grace",
+  "status": "active",
+  "currentClass": null,
+  "firstSession": "2026-2027",
+  "lastSession": "2026-2027",
+  "sessionCount": 1,
+  "latestBalance": 23330,
+  "sessions": [
+   {
+    "session": "2026-2027",
+    "terms": [
+     {
+      "term": "1st Term",
+      "class": null,
+      "total": 37000,
+      "paid": 13670,
+      "balance": 23330,
+      "discount": 0.25,
+      "items": {
+       "UNIFORM": 16000,
+       "HOODY": 8000,
+       "SPORTSWEAR": 7000,
+       "AFTERSCHOOL": 6000
+      },
+      "reference": {},
       "deposits": {},
       "extra": {}
      }
@@ -34538,7 +34608,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 51530,
+  "latestBalance": 41530,
   "sessions": [
    {
     "session": "2025-2026",
@@ -34627,8 +34697,8 @@
       "term": "1st Term",
       "class": "PLAYGROUP 2",
       "total": 51530,
-      "paid": 0,
-      "balance": 51530,
+      "paid": 10000,
+      "balance": 41530,
       "discount": 0.25,
       "items": {
        "TUITION": 19500,
