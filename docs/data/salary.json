@@ -61605,211 +61605,194 @@
      "dateDue": null
     },
     {
-     "month": "July",
-     "name": "None",
-     "bank": "None",
-     "accountNumber": null,
-     "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
-     "monthlyDeduction": null,
-     "deduction": null,
-     "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
-     "dateDue": null
-    },
-    {
-     "month": "July",
-     "name": "None",
-     "bank": "None",
-     "accountNumber": null,
+     "month": "September",
+     "name": "SAHEED ADEKUNLE ADEBUNMI",
+     "bank": "OPAY",
+     "accountNumber": "9067750493",
      "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
+     "basicSalary": 50000,
+     "taxDeduction": 500,
      "monthlyDeduction": null,
      "deduction": null,
      "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
+     "extraBonus": 10000,
+     "amountPayable": 59500,
+     "paid": 0,
+     "balance": 59500,
      "dateDue": null
     },
     {
-     "month": "July",
-     "name": "None",
-     "bank": "None",
-     "accountNumber": null,
+     "month": "September",
+     "name": "FALOLA PHOEBE IBUKUNOLUWA",
+     "bank": "FIRSTBANK",
+     "accountNumber": "3141506996",
      "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
+     "basicSalary": 45000,
+     "taxDeduction": 450,
      "monthlyDeduction": null,
      "deduction": null,
      "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
+     "extraBonus": 0,
+     "amountPayable": 44550,
+     "paid": 0,
+     "balance": 44550,
      "dateDue": null
     },
     {
-     "month": "July",
-     "name": "None",
-     "bank": "None",
-     "accountNumber": null,
+     "month": "September",
+     "name": "OLADELE ANUOLUWAPO DEBORAH",
+     "bank": "OPAY",
+     "accountNumber": "8164034323",
      "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
+     "basicSalary": 40000,
+     "taxDeduction": 400,
      "monthlyDeduction": null,
      "deduction": null,
      "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
+     "extraBonus": 0,
+     "amountPayable": 39600,
+     "paid": 0,
+     "balance": 39600,
      "dateDue": null
     },
     {
-     "month": "July",
-     "name": "None",
-     "bank": "None",
-     "accountNumber": null,
+     "month": "September",
+     "name": "BAMIDELE HELEN OLUWAFUNMISO",
+     "bank": "OPAY",
+     "accountNumber": "8142630975",
      "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
+     "basicSalary": 30000,
+     "taxDeduction": 300,
      "monthlyDeduction": null,
      "deduction": null,
      "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
+     "extraBonus": 0,
+     "amountPayable": 29700,
+     "paid": 0,
+     "balance": 29700,
      "dateDue": null
     },
     {
-     "month": "July",
-     "name": "None",
-     "bank": "None",
-     "accountNumber": null,
+     "month": "September",
+     "name": "DUROWOJU OLAMIDE TITILAYO",
+     "bank": "OPAY",
+     "accountNumber": "8153319408",
      "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
+     "basicSalary": 40000,
+     "taxDeduction": 400,
      "monthlyDeduction": null,
      "deduction": null,
      "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
+     "extraBonus": 0,
+     "amountPayable": 39600,
+     "paid": 0,
+     "balance": 39600,
      "dateDue": null
     },
     {
-     "month": "July",
-     "name": "None",
-     "bank": "None",
-     "accountNumber": null,
+     "month": "September",
+     "name": "ADEKUNLE PHEBEAN OLUWASEUN",
+     "bank": "OPAY",
+     "accountNumber": "9155651423",
      "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
+     "basicSalary": 45000,
+     "taxDeduction": 450,
      "monthlyDeduction": null,
      "deduction": null,
      "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
+     "extraBonus": 0,
+     "amountPayable": 44550,
+     "paid": 0,
+     "balance": 44550,
      "dateDue": null
     },
     {
-     "month": "July",
-     "name": "None",
-     "bank": "None",
-     "accountNumber": null,
+     "month": "September",
+     "name": "ADESOKAN OMOLABAKE NAOMI",
+     "bank": "OPAY",
+     "accountNumber": "9034630435",
      "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
+     "basicSalary": 30000,
+     "taxDeduction": 300,
      "monthlyDeduction": null,
      "deduction": null,
      "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
+     "extraBonus": 0,
+     "amountPayable": 29700,
+     "paid": 0,
+     "balance": 29700,
      "dateDue": null
     },
     {
-     "month": "July",
-     "name": "None",
-     "bank": "None",
-     "accountNumber": null,
+     "month": "September",
+     "name": "IYANDA TESTIMONY OLUWANIFEMI",
+     "bank": "OPAY",
+     "accountNumber": "9017054114",
      "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
+     "basicSalary": 30000,
+     "taxDeduction": 300,
      "monthlyDeduction": null,
      "deduction": null,
      "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
+     "extraBonus": 0,
+     "amountPayable": 29700,
+     "paid": 0,
+     "balance": 29700,
      "dateDue": null
     },
     {
-     "month": "July",
-     "name": "None",
-     "bank": "None",
-     "accountNumber": null,
+     "month": "September",
+     "name": "MURITALA TOPE OLAYOKE",
+     "bank": "OPAY",
+     "accountNumber": "7064486665",
      "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
+     "basicSalary": 30000,
+     "taxDeduction": 300,
      "monthlyDeduction": null,
      "deduction": null,
      "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
+     "extraBonus": 0,
+     "amountPayable": 29700,
+     "paid": 0,
+     "balance": 29700,
      "dateDue": null
     },
     {
-     "month": "July",
-     "name": "None",
-     "bank": "None",
-     "accountNumber": null,
+     "month": "September",
+     "name": "HAMMED BLESSING OLUWAPELUMI",
+     "bank": "WEMA",
+     "accountNumber": "0243640517",
      "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
+     "basicSalary": 45000,
+     "taxDeduction": 450,
      "monthlyDeduction": null,
      "deduction": null,
      "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
+     "extraBonus": 0,
+     "amountPayable": 44550,
+     "paid": 0,
+     "balance": 44550,
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
      "contract": null,
-     "basicSalary": null,
-     "taxDeduction": null,
+     "basicSalary": 385000,
+     "taxDeduction": 3850,
      "monthlyDeduction": null,
      "deduction": null,
      "outstanding": null,
-     "extraBonus": null,
-     "amountPayable": null,
-     "paid": null,
-     "balance": null,
+     "extraBonus": 10000,
+     "amountPayable": 391150,
+     "paid": 0,
+     "balance": 391150,
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -61826,7 +61809,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -61843,7 +61826,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -61860,7 +61843,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -61877,7 +61860,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -61894,7 +61877,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -61911,7 +61894,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -61928,7 +61911,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -61945,7 +61928,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -61962,7 +61945,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -61979,7 +61962,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -61996,7 +61979,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62013,7 +61996,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62030,7 +62013,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62047,7 +62030,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62064,7 +62047,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62081,7 +62064,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62098,7 +62081,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62115,7 +62098,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62132,7 +62115,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62149,7 +62132,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62166,7 +62149,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62183,7 +62166,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62200,7 +62183,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62217,7 +62200,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62234,7 +62217,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62251,7 +62234,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62268,7 +62251,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62285,7 +62268,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62302,7 +62285,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62319,7 +62302,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62336,7 +62319,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62353,7 +62336,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62370,7 +62353,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62387,7 +62370,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62404,7 +62387,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62421,7 +62404,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62438,7 +62421,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62455,7 +62438,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62472,7 +62455,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62489,7 +62472,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62506,7 +62489,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62523,7 +62506,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62540,7 +62523,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62557,7 +62540,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62574,7 +62557,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62591,7 +62574,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62608,7 +62591,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62625,7 +62608,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62642,7 +62625,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62659,7 +62642,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62676,7 +62659,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62693,7 +62676,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62710,7 +62693,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62727,7 +62710,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62744,7 +62727,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62761,7 +62744,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62778,7 +62761,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62795,7 +62778,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62812,7 +62795,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62829,7 +62812,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62846,7 +62829,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62863,7 +62846,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62880,7 +62863,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62897,7 +62880,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62914,7 +62897,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62931,7 +62914,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62948,7 +62931,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62965,7 +62948,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62982,7 +62965,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -62999,7 +62982,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63016,7 +62999,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63033,7 +63016,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63050,7 +63033,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63067,7 +63050,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63084,7 +63067,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63101,7 +63084,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63118,7 +63101,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63135,7 +63118,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63152,7 +63135,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63169,7 +63152,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63186,7 +63169,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63203,7 +63186,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63220,7 +63203,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63237,7 +63220,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63254,7 +63237,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63271,7 +63254,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63288,7 +63271,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63305,7 +63288,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63322,7 +63305,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63339,7 +63322,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63356,7 +63339,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63373,7 +63356,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63390,7 +63373,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63407,7 +63390,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63424,7 +63407,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63441,7 +63424,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63458,7 +63441,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63475,7 +63458,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63492,7 +63475,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63509,7 +63492,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63526,7 +63509,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63543,7 +63526,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63560,7 +63543,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63577,7 +63560,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63594,7 +63577,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63611,7 +63594,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63628,7 +63611,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63645,7 +63628,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63662,7 +63645,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63679,7 +63662,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63696,7 +63679,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63713,7 +63696,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63730,7 +63713,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63747,7 +63730,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63764,7 +63747,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63781,7 +63764,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63798,7 +63781,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63815,7 +63798,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63832,7 +63815,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63849,7 +63832,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63866,7 +63849,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63883,7 +63866,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63900,7 +63883,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63917,7 +63900,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63934,7 +63917,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63951,7 +63934,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63968,7 +63951,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -63985,7 +63968,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64002,7 +63985,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64019,7 +64002,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64036,7 +64019,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64053,7 +64036,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64070,7 +64053,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64087,7 +64070,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64104,7 +64087,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64121,7 +64104,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64138,7 +64121,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64155,7 +64138,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64172,7 +64155,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64189,7 +64172,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64206,7 +64189,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64223,7 +64206,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64240,7 +64223,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64257,7 +64240,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64274,7 +64257,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64291,7 +64274,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64308,7 +64291,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64325,7 +64308,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64342,7 +64325,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64359,7 +64342,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64376,7 +64359,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64393,7 +64376,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64410,7 +64393,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64427,7 +64410,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64444,7 +64427,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64461,7 +64444,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64478,7 +64461,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64495,7 +64478,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64512,7 +64495,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -64529,7 +64512,7 @@
      "dateDue": null
     },
     {
-     "month": "July",
+     "month": "September",
      "name": "None",
      "bank": "None",
      "accountNumber": null,
@@ -65821,6 +65804,210 @@
      "paid": 398140,
      "balance": 0,
      "dateDue": null
+    },
+    {
+     "month": "July",
+     "name": "None",
+     "bank": "None",
+     "accountNumber": null,
+     "contract": null,
+     "basicSalary": null,
+     "taxDeduction": null,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": null,
+     "amountPayable": null,
+     "paid": null,
+     "balance": null,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "ADENIRAN MUTIAT OMOWUMI",
+     "bank": "OPAY",
+     "accountNumber": "8087156406",
+     "contract": null,
+     "basicSalary": 45000,
+     "taxDeduction": 450,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 0,
+     "amountPayable": 44550,
+     "paid": 0,
+     "balance": 44550,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "ATULUKU DEBORAH OJONOUGWA",
+     "bank": "OPAY",
+     "accountNumber": "9037481168",
+     "contract": null,
+     "basicSalary": 25000,
+     "taxDeduction": 250,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 0,
+     "amountPayable": 24750,
+     "paid": 0,
+     "balance": 24750,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "DASOLA AWOYEMI",
+     "bank": "OPAY",
+     "accountNumber": "8033662120",
+     "contract": null,
+     "basicSalary": 50000,
+     "taxDeduction": 500,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 0,
+     "amountPayable": 49500,
+     "paid": 0,
+     "balance": 49500,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "JOHN FAITH VICTORIA",
+     "bank": "UBA",
+     "accountNumber": "2127898986",
+     "contract": null,
+     "basicSalary": 45000,
+     "taxDeduction": 450,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 11000,
+     "amountPayable": 55550,
+     "paid": 0,
+     "balance": 55550,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "MARIAM WURAOLA JAMIU",
+     "bank": "OPAY",
+     "accountNumber": "8081392475",
+     "contract": null,
+     "basicSalary": 45000,
+     "taxDeduction": 450,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 5000,
+     "amountPayable": 49550,
+     "paid": 0,
+     "balance": 49550,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "OGUNGBENJO TOMILAYO LYDIA",
+     "bank": "OPAY",
+     "accountNumber": "7037979726",
+     "contract": null,
+     "basicSalary": 35000,
+     "taxDeduction": 350,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 0,
+     "amountPayable": 34650,
+     "paid": 0,
+     "balance": 34650,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "OLOYEDE SAMUEL OLUWASEYI",
+     "bank": "OPAY",
+     "accountNumber": "7039407564",
+     "contract": null,
+     "basicSalary": 33000,
+     "taxDeduction": 330,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 0,
+     "amountPayable": 32670,
+     "paid": 0,
+     "balance": 32670,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "BABATUNDE OPEYEMI MARIAM",
+     "bank": "OPAY",
+     "accountNumber": "7039111241",
+     "contract": null,
+     "basicSalary": 25000,
+     "taxDeduction": 250,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 0,
+     "amountPayable": 24750,
+     "paid": 0,
+     "balance": 24750,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "ABUDU NARIA DELIGHT",
+     "bank": "FIDELITY",
+     "accountNumber": "6551305846",
+     "contract": null,
+     "basicSalary": 45000,
+     "taxDeduction": 450,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 0,
+     "amountPayable": 44550,
+     "paid": 0,
+     "balance": 44550,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "RUTH KEMI OLADEHINDE",
+     "bank": "FIRSTMONIE",
+     "accountNumber": "8798071174",
+     "contract": null,
+     "basicSalary": 38000,
+     "taxDeduction": 380,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 0,
+     "amountPayable": 37620,
+     "paid": 0,
+     "balance": 37620,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "None",
+     "bank": "None",
+     "accountNumber": null,
+     "contract": null,
+     "basicSalary": 386000,
+     "taxDeduction": 3860,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 16000,
+     "amountPayable": 398140,
+     "paid": 0,
+     "balance": 398140,
+     "dateDue": null
     }
    ],
    "support": [
@@ -66347,8 +66534,8 @@
      "outstanding": null,
      "extraBonus": 0,
      "amountPayable": 44550,
-     "paid": 0,
-     "balance": 44550,
+     "paid": 44550,
+     "balance": 0,
      "dateDue": null
     },
     {
@@ -66398,8 +66585,93 @@
      "outstanding": null,
      "extraBonus": -1275,
      "amountPayable": 101685,
-     "paid": 57135,
+     "paid": 101685,
+     "balance": 0,
+     "dateDue": null
+    },
+    {
+     "month": "July",
+     "name": "None",
+     "bank": "None",
+     "accountNumber": null,
+     "contract": null,
+     "basicSalary": null,
+     "taxDeduction": null,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": null,
+     "amountPayable": null,
+     "paid": null,
+     "balance": null,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "PEARSE FOLORUNSHO OLARENWAJU",
+     "bank": "OPAY",
+     "accountNumber": "8168870371",
+     "contract": null,
+     "basicSalary": 45000,
+     "taxDeduction": 450,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 0,
+     "amountPayable": 44550,
+     "paid": 0,
      "balance": 44550,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "ABOSEDE JOSEPH",
+     "bank": "ZENITH",
+     "accountNumber": "2418124455",
+     "contract": null,
+     "basicSalary": 25000,
+     "taxDeduction": 250,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": 0,
+     "amountPayable": 24750,
+     "paid": 0,
+     "balance": 24750,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "MAYOWA MOSES",
+     "bank": "OPAY",
+     "accountNumber": null,
+     "contract": null,
+     "basicSalary": 0,
+     "taxDeduction": 0,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": -1275,
+     "amountPayable": -1275,
+     "paid": 0,
+     "balance": -1275,
+     "dateDue": null
+    },
+    {
+     "month": "September",
+     "name": "None",
+     "bank": "None",
+     "accountNumber": null,
+     "contract": null,
+     "basicSalary": 70000,
+     "taxDeduction": 700,
+     "monthlyDeduction": null,
+     "deduction": null,
+     "outstanding": null,
+     "extraBonus": -1275,
+     "amountPayable": 68025,
+     "paid": 0,
+     "balance": 68025,
      "dateDue": null
     }
    ]
