@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-15T18:39:23.289494+00:00",
+ "generatedAt": "2026-09-18T22:50:06.961840+00:00",
  "sessions": [
   "2021-2022",
   "2022-2023",
@@ -27,27 +27,27 @@
   "SENIOR SECONDARY SCHOOL 2",
   "SENIOR SECONDARY SCHOOL 3"
  ],
- "totalStudents": 225,
- "activeStudents": 124,
- "leftStudents": 101,
+ "totalStudents": 233,
+ "activeStudents": 133,
+ "leftStudents": 100,
  "classCounts": {
-  "NURSERY 1": 20,
-  "PRIMARY 2": 8,
+  "NURSERY 1": 22,
+  "PRIMARY 2": 9,
   "SENIOR SECONDARY SCHOOL 2": 7,
-  "NURSERY 2": 9,
-  "PLAYGROUP 2": 11,
-  "PRIMARY 3": 9,
+  "NURSERY 2": 10,
+  "PLAYGROUP 2": 10,
+  "PRIMARY 3": 10,
   "JUNIOR SECONDARY SCHOOL 2": 5,
   "SENIOR SECONDARY SCHOOL 1": 3,
-  "PLAYGROUP 1": 18,
+  "PLAYGROUP 1": 20,
   "PRIMARY 1": 9,
   "PRIMARY 5": 4,
-  "JUNIOR SECONDARY SCHOOL 3": 11,
+  "JUNIOR SECONDARY SCHOOL 3": 12,
   "JUNIOR SECONDARY SCHOOL 1": 1,
-  "CRECHE": 3,
+  "CRECHE": 5,
   "PRIMARY 4": 4,
   "UNASSIGNED": 1,
   "SENIOR SECONDARY SCHOOL 3": 1
  },
- "currentOutstanding": 5936445
+ "currentOutstanding": 5906655
 }
