@@ -1740,7 +1740,7 @@
   "firstSession": "2026-2027",
   "lastSession": "2026-2027",
   "sessionCount": 1,
-  "latestBalance": 23040,
+  "latestBalance": 40,
   "sessions": [
    {
     "session": "2026-2027",
@@ -1748,9 +1748,9 @@
      {
       "term": "1st Term",
       "class": "PRIMARY 3",
-      "total": 113040,
-      "paid": 90000,
-      "balance": 23040,
+      "total": 119040,
+      "paid": 119000,
+      "balance": 40,
       "discount": 0,
       "items": {
        "AD_FORM": 2000,
@@ -1762,7 +1762,8 @@
        "NB & STAT": 13230,
        "UNIFORM": 16000,
        "HOODY": 8000,
-       "SPORTSWEAR": 7000
+       "SPORTSWEAR": 7000,
+       "AFTERSCHOOL": 6000
       },
       "reference": {
        "AD-FORM": 2000,
@@ -1787,7 +1788,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 78330,
+  "latestBalance": 53330,
   "sessions": [
    {
     "session": "2025-2026",
@@ -1888,8 +1889,8 @@
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 2",
       "total": 78330,
-      "paid": 0,
-      "balance": 78330,
+      "paid": 25000,
+      "balance": 53330,
       "discount": 0.25,
       "items": {
        "TUITION": 24750,
@@ -1923,7 +1924,7 @@
   "firstSession": "2023-2024",
   "lastSession": "2026-2027",
   "sessionCount": 4,
-  "latestBalance": 97250,
+  "latestBalance": 72250,
   "sessions": [
    {
     "session": "2023-2024",
@@ -2173,8 +2174,8 @@
       "term": "1st Term",
       "class": "SENIOR SECONDARY SCHOOL 1",
       "total": 97250,
-      "paid": 0,
-      "balance": 97250,
+      "paid": 25000,
+      "balance": 72250,
       "discount": 0.25,
       "items": {
        "TUITION": 30000,
@@ -3141,7 +3142,7 @@
   "firstSession": "2023-2024",
   "lastSession": "2026-2027",
   "sessionCount": 4,
-  "latestBalance": 29290,
+  "latestBalance": 26800,
   "sessions": [
    {
     "session": "2023-2024",
@@ -3365,16 +3366,16 @@
      {
       "term": "1st Term",
       "class": "PRIMARY 3",
-      "total": 69290,
+      "total": 66800,
       "paid": 40000,
-      "balance": 29290,
+      "balance": 26800,
       "discount": 0.25,
       "items": {
        "TUITION": 21000,
        "PTA&EXAM": 4000,
        "PRACTICAL": 3750,
        "TEXTBOOKS": 27310,
-       "NB & STAT": 13230
+       "NB & STAT": 10740
       },
       "reference": {
        "FULL TUITION": 28000,
@@ -8413,7 +8414,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 43140,
+  "latestBalance": 0,
   "sessions": [
    {
     "session": "2025-2026",
@@ -8473,8 +8474,8 @@
       "term": "1st Term",
       "class": "PLAYGROUP 1",
       "total": 43140,
-      "paid": 0,
-      "balance": 43140,
+      "paid": 43140,
+      "balance": 0,
       "discount": 0,
       "items": {
        "TUITION": 26000,
@@ -16486,7 +16487,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 56930,
+  "latestBalance": 0,
   "sessions": [
    {
     "session": "2024-2025",
@@ -16601,8 +16602,8 @@
       "term": "1st Term",
       "class": "NURSERY 1",
       "total": 56930,
-      "paid": 0,
-      "balance": 56930,
+      "paid": 56930,
+      "balance": 0,
       "discount": 0,
       "items": {
        "TUITION": 26000,
@@ -16616,7 +16617,9 @@
        "PTA/EXAM": 4000
       },
       "deposits": {},
-      "extra": {}
+      "extra": {
+       "LESSON FEE PRY": 6000
+      }
      }
     ]
    }
@@ -16836,7 +16839,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 44430,
+  "latestBalance": 45330,
   "sessions": [
    {
     "session": "2025-2026",
@@ -16921,15 +16924,15 @@
      {
       "term": "1st Term",
       "class": "NURSERY 1",
-      "total": 44430,
+      "total": 45330,
       "paid": 0,
-      "balance": 44430,
+      "balance": 45330,
       "discount": 0.25,
       "items": {
        "TUITION": 19500,
        "PTA&EXAM": 4000,
        "TEXTBOOKS": 13380,
-       "NB & STAT": 7550
+       "NB & STAT": 8450
       },
       "reference": {
        "FULL TUITION": 26000,
@@ -19797,7 +19800,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 25430,
+  "latestBalance": 27230,
   "sessions": [
    {
     "session": "2024-2025",
@@ -19904,15 +19907,15 @@
      {
       "term": "1st Term",
       "class": "NURSERY 1",
-      "total": 50430,
+      "total": 52230,
       "paid": 25000,
-      "balance": 25430,
+      "balance": 27230,
       "discount": 0.25,
       "items": {
        "TUITION": 19500,
        "PTA&EXAM": 4000,
        "TEXTBOOKS": 13380,
-       "NB & STAT": 7550,
+       "NB & STAT": 9350,
        "AFTERSCHOOL": 6000
       },
       "reference": {
@@ -20709,7 +20712,7 @@
   "firstSession": "2021-2022",
   "lastSession": "2026-2027",
   "sessionCount": 6,
-  "latestBalance": 67530,
+  "latestBalance": 37530,
   "sessions": [
    {
     "session": "2021-2022",
@@ -21079,8 +21082,8 @@
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 2",
       "total": 67530,
-      "paid": 0,
-      "balance": 67530,
+      "paid": 30000,
+      "balance": 37530,
       "discount": 0.3,
       "items": {
        "TUITION": 23100,
@@ -21112,7 +21115,7 @@
   "firstSession": "2021-2022",
   "lastSession": "2026-2027",
   "sessionCount": 6,
-  "latestBalance": 69740,
+  "latestBalance": 28460,
   "sessions": [
    {
     "session": "2021-2022",
@@ -21457,16 +21460,16 @@
      {
       "term": "1st Term",
       "class": "PRIMARY 3",
-      "total": 69740,
-      "paid": 0,
-      "balance": 69740,
+      "total": 67250,
+      "paid": 38790,
+      "balance": 28460,
       "discount": 0.25,
       "items": {
        "TUITION": 21000,
        "PTA&EXAM": 4000,
        "PRACTICAL": 3750,
        "TEXTBOOKS": 27310,
-       "NB & STAT": 13230,
+       "NB & STAT": 10740,
        "OUTSTANDING": 450
       },
       "reference": {
@@ -21490,7 +21493,7 @@
   "firstSession": "2022-2023",
   "lastSession": "2026-2027",
   "sessionCount": 5,
-  "latestBalance": 31210,
+  "latestBalance": 0,
   "sessions": [
    {
     "session": "2022-2023",
@@ -21742,8 +21745,8 @@
       "term": "1st Term",
       "class": "SENIOR SECONDARY SCHOOL 2",
       "total": 31210,
-      "paid": 0,
-      "balance": 31210,
+      "paid": 31210,
+      "balance": 0,
       "discount": 1,
       "items": {
        "PTA&EXAM": 5000,
@@ -22247,7 +22250,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 55590,
+  "latestBalance": 30590,
   "sessions": [
    {
     "session": "2025-2026",
@@ -22304,8 +22307,8 @@
       "term": "1st Term",
       "class": "PLAYGROUP 1",
       "total": 55590,
-      "paid": 0,
-      "balance": 55590,
+      "paid": 25000,
+      "balance": 30590,
       "discount": 0.25,
       "items": {
        "TUITION": 19500,
@@ -22336,7 +22339,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 55590,
+  "latestBalance": 30590,
   "sessions": [
    {
     "session": "2025-2026",
@@ -22393,8 +22396,8 @@
       "term": "1st Term",
       "class": "PLAYGROUP 1",
       "total": 55590,
-      "paid": 0,
-      "balance": 55590,
+      "paid": 25000,
+      "balance": 30590,
       "discount": 0.25,
       "items": {
        "TUITION": 19500,
@@ -26134,7 +26137,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 12230,
+  "latestBalance": 14030,
   "sessions": [
    {
     "session": "2024-2025",
@@ -26276,15 +26279,15 @@
      {
       "term": "1st Term",
       "class": "NURSERY 1",
-      "total": 56930,
+      "total": 58730,
       "paid": 44700,
-      "balance": 12230,
+      "balance": 14030,
       "discount": 0,
       "items": {
        "TUITION": 26000,
        "PTA&EXAM": 4000,
        "TEXTBOOKS": 13380,
-       "NB & STAT": 7550,
+       "NB & STAT": 9350,
        "AFTERSCHOOL": 6000
       },
       "reference": {
@@ -31072,7 +31075,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 77290,
+  "latestBalance": 72310,
   "sessions": [
    {
     "session": "2024-2025",
@@ -31231,16 +31234,16 @@
      {
       "term": "1st Term",
       "class": "PRIMARY 3",
-      "total": 77290,
+      "total": 72310,
       "paid": 0,
-      "balance": 77290,
+      "balance": 72310,
       "discount": 0.25,
       "items": {
        "TUITION": 21000,
        "PTA&EXAM": 4000,
        "PRACTICAL": 3750,
        "TEXTBOOKS": 27310,
-       "NB & STAT": 13230,
+       "NB & STAT": 8250,
        "UNIFORM": 8000
       },
       "reference": {
@@ -31264,7 +31267,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 52430,
+  "latestBalance": 54680,
   "sessions": [
    {
     "session": "2024-2025",
@@ -31410,15 +31413,15 @@
      {
       "term": "1st Term",
       "class": "NURSERY 1",
-      "total": 52430,
+      "total": 54680,
       "paid": 0,
-      "balance": 52430,
+      "balance": 54680,
       "discount": 0.25,
       "items": {
        "TUITION": 19500,
        "PTA&EXAM": 4000,
        "TEXTBOOKS": 13380,
-       "NB & STAT": 7550,
+       "NB & STAT": 9800,
        "UNIFORM": 8000
       },
       "reference": {
@@ -33731,7 +33734,7 @@
   "firstSession": "2022-2023",
   "lastSession": "2026-2027",
   "sessionCount": 5,
-  "latestBalance": 79370,
+  "latestBalance": 54370,
   "sessions": [
    {
     "session": "2022-2023",
@@ -34058,8 +34061,8 @@
       "term": "1st Term",
       "class": "SENIOR SECONDARY SCHOOL 2",
       "total": 79370,
-      "paid": 0,
-      "balance": 79370,
+      "paid": 25000,
+      "balance": 54370,
       "discount": 0.25,
       "items": {
        "TUITION": 30000,
@@ -34093,7 +34096,7 @@
   "firstSession": "2022-2023",
   "lastSession": "2026-2027",
   "sessionCount": 5,
-  "latestBalance": 76770,
+  "latestBalance": 51770,
   "sessions": [
    {
     "session": "2022-2023",
@@ -34406,8 +34409,8 @@
       "term": "1st Term",
       "class": "PRIMARY 5",
       "total": 76770,
-      "paid": 0,
-      "balance": 76770,
+      "paid": 25000,
+      "balance": 51770,
       "discount": 0.25,
       "items": {
        "TUITION": 21000,
@@ -36893,7 +36896,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 30930,
+  "latestBalance": 21380,
   "sessions": [
    {
     "session": "2024-2025",
@@ -37047,15 +37050,15 @@
      {
       "term": "1st Term",
       "class": "NURSERY 1",
-      "total": 50930,
-      "paid": 20000,
-      "balance": 30930,
+      "total": 51380,
+      "paid": 30000,
+      "balance": 21380,
       "discount": 0,
       "items": {
        "TUITION": 26000,
        "PTA&EXAM": 4000,
        "TEXTBOOKS": 13380,
-       "NB & STAT": 7550
+       "NB & STAT": 8000
       },
       "reference": {
        "FULL TUITION": 26000,
