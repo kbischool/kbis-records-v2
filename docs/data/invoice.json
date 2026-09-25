@@ -5,24 +5,21 @@
    "items": {
     "AD-FORM": 2000,
     "TUITION": 26000,
-    "PTA": 2000,
-    "EXAM": 2000,
-    "REPORT CARD": 1000,
+    "PTA/EXAM": 2000,
     "NB & STAT": 3050,
     "UNIFORM": 16000,
     "HOODY": 8000,
     "SPORTSWEAR": 7000,
     "AFTERSCHOOL": 6000
    },
-   "grandTotal": 73050
+   "grandTotal": 70050
   },
   {
    "class": "PLAYGROUP 1",
    "items": {
     "AD-FORM": 2000,
     "TUITION": 26000,
-    "PTA": 2000,
-    "EXAM": 2000,
+    "PTA/EXAM": 4000,
     "REPORT CARD": 1000,
     "TEXTBOOKS": 6840,
     "NB & STAT": 5300,
@@ -38,8 +35,7 @@
    "items": {
     "AD-FORM": 2000,
     "TUITION": 26000,
-    "PTA": 2000,
-    "EXAM": 2000,
+    "PTA/EXAM": 4000,
     "REPORT CARD": 1000,
     "TEXTBOOKS": 12480,
     "NB & STAT": 7550,
@@ -55,8 +51,7 @@
    "items": {
     "AD-FORM": 2000,
     "TUITION": 26000,
-    "PTA": 2000,
-    "EXAM": 2000,
+    "PTA/EXAM": 4000,
     "REPORT CARD": 1000,
     "TEXTBOOKS": 13380,
     "NB & STAT": 7550,
@@ -72,8 +67,7 @@
    "items": {
     "AD-FORM": 2000,
     "TUITION": 26000,
-    "PTA": 2000,
-    "EXAM": 2000,
+    "PTA/EXAM": 4000,
     "REPORT CARD": 1000,
     "TEXTBOOKS": 24930,
     "NB & STAT": 10730,
@@ -89,8 +83,7 @@
    "items": {
     "AD-FORM": 2000,
     "TUITION": 28000,
-    "PTA": 2000,
-    "EXAM": 2000,
+    "PTA/EXAM": 4000,
     "REPORT CARD": 2500,
     "PRACTICALS": 5000,
     "TEXTBOOKS": 25970,
@@ -107,8 +100,7 @@
    "items": {
     "AD-FORM": 2000,
     "TUITION": 28000,
-    "PTA": 2000,
-    "EXAM": 2000,
+    "PTA/EXAM": 4000,
     "REPORT CARD": 2500,
     "PRACTICALS": 5000,
     "TEXTBOOKS": 26150,
@@ -125,8 +117,7 @@
    "items": {
     "AD-FORM": 2000,
     "TUITION": 28000,
-    "PTA": 2000,
-    "EXAM": 2000,
+    "PTA/EXAM": 4000,
     "REPORT CARD": 2500,
     "PRACTICALS": 5000,
     "TEXTBOOKS": 27310,
@@ -143,8 +134,7 @@
    "items": {
     "AD-FORM": 2000,
     "TUITION": 28000,
-    "PTA": 2000,
-    "EXAM": 2000,
+    "PTA/EXAM": 4000,
     "REPORT CARD": 2500,
     "PRACTICALS": 5000,
     "TEXTBOOKS": 27330,
@@ -161,8 +151,7 @@
    "items": {
     "AD-FORM": 2000,
     "TUITION": 28000,
-    "PTA": 2000,
-    "EXAM": 2000,
+    "PTA/EXAM": 4000,
     "REPORT CARD": 2500,
     "PRACTICALS": 5000,
     "TEXTBOOKS": 28790,
@@ -179,8 +168,7 @@
    "items": {
     "AD-FORM": 3000,
     "TUITION": 33000,
-    "PTA": 2000,
-    "EXAM": 3000,
+    "PTA/EXAM": 5000,
     "REPORT CARD": 2000,
     "PRACTICALS": 6000,
     "TEXTBOOKS": 19320,
@@ -197,8 +185,7 @@
    "items": {
     "AD-FORM": 3000,
     "TUITION": 33000,
-    "PTA": 2000,
-    "EXAM": 3000,
+    "PTA/EXAM": 5000,
     "REPORT CARD": 2000,
     "PRACTICALS": 6000,
     "TEXTBOOKS": 19500,
@@ -215,8 +202,7 @@
    "items": {
     "AD-FORM": 3000,
     "TUITION": 33000,
-    "PTA": 2000,
-    "EXAM": 3000,
+    "PTA/EXAM": 5000,
     "REPORT CARD": 2000,
     "PRACTICALS": 6000,
     "TEXTBOOKS": 22400,
@@ -233,8 +219,7 @@
    "items": {
     "AD-FORM": 3000,
     "TUITION": 40000,
-    "PTA": 2000,
-    "EXAM": 3000,
+    "PTA/EXAM": 5000,
     "REPORT CARD": 2000,
     "PRACTICALS": 8000,
     "TEXTBOOKS": 11880,
@@ -251,8 +236,7 @@
    "items": {
     "AD-FORM": 3000,
     "TUITION": 40000,
-    "PTA": 2000,
-    "EXAM": 3000,
+    "PTA/EXAM": 5000,
     "REPORT CARD": 2000,
     "PRACTICALS": 8000,
     "TEXTBOOKS": 11880,
@@ -269,8 +253,7 @@
    "items": {
     "AD-FORM": 3000,
     "TUITION": 40000,
-    "PTA": 2000,
-    "EXAM": 3000,
+    "PTA/EXAM": 5000,
     "REPORT CARD": 2000,
     "PRACTICALS": 8000,
     "TEXTBOOKS": 11880,

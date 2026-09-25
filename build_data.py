@@ -374,27 +374,64 @@ def build_stock():
             uniforms.append({"group": group, "items": items})
 
     # TEXTBOOKS: one row per book -- every column on the sheet.
-    df = pd.read_excel(path, sheet_name="TEXTBOOKS")
-    df = df.dropna(subset=["TEXTBOOK"], how="all")
+    # NOTE: STUDENT QTY / AVAILABLE QTY were removed from this sheet -- no
+    # longer read or published. Deleting those columns in the workbook also
+    # broke the SELL TOTAL / PROFIT formulas (every row now holds a cached
+    # #REF! error), so when a cell's data_type marks it as a formula error we
+    # recompute it ourselves as neededQty * sellPrice (and profit from that),
+    # which is exactly what the formula did before the column was removed.
+    # Read via openpyxl directly (not pandas) because pandas silently turns
+    # Excel error cells into NaN, indistinguishable from a genuinely blank
+    # cell -- openpyxl's cell.data_type == "e" is what actually tells them apart.
+    wb_tb = openpyxl.load_workbook(path, data_only=True)
+    ws_tb = wb_tb["TEXTBOOKS"]
+    tb_header = [clean_col(c) if c is not None else None for c in next(ws_tb.iter_rows(min_row=1, max_row=1, values_only=True))]
+
+    def tb_col(row_cells, label):
+        return row_cells[tb_header.index(label)] if label in tb_header else None
+
     textbooks = []
-    for _, row in df.iterrows():
-        title = clean_col(row.get("TEXTBOOK"))
+    textbook_recomputed = 0
+    for row_cells in ws_tb.iter_rows(min_row=2):
+        values = [c.value for c in row_cells]
+        raw_title = tb_col(values, "TEXTBOOK")
+        if raw_title is None:
+            continue
+        title = clean_col(raw_title)
         if not title:
             continue
+        needed_qty = to_number(tb_col(values, "NEEDED QTY"))
+        sell_price = to_number(tb_col(values, "SELL PRICE"))
+        cost_total = to_number(tb_col(values, "COST TOTAL"))
+
+        sell_total_idx = tb_header.index("SELL TOTAL") if "SELL TOTAL" in tb_header else None
+        profit_idx = tb_header.index("PROFIT") if "PROFIT" in tb_header else None
+        sell_total_broken = sell_total_idx is not None and row_cells[sell_total_idx].data_type == "e"
+        profit_broken = profit_idx is not None and row_cells[profit_idx].data_type == "e"
+
+        if sell_total_broken or profit_broken:
+            sell_total = needed_qty * sell_price
+            profit = sell_total - cost_total
+            textbook_recomputed += 1
+        else:
+            sell_total = to_number(tb_col(values, "SELL TOTAL"))
+            profit = to_number(tb_col(values, "PROFIT"))
         textbooks.append({
-            "class": clean_col(row.get("CLASS")),
-            "subject": clean_col(row.get("SUBJECTS")),
+            "class": clean_col(tb_col(values, "CLASS")),
+            "subject": clean_col(tb_col(values, "SUBJECTS")),
             "textbook": title,
-            "provider": clean_col(row.get("PROVIDER")),
-            "studentQty": to_number(row.get("STUDENT QTY")),
-            "availableQty": to_number(row.get("AVAILABLE QTY")),
-            "neededQty": to_number(row.get("NEEDED QTY")),
-            "costPrice": to_number(row.get("COST PRICE")),
-            "sellPrice": to_number(row.get("SELL PRICE")),
-            "costTotal": to_number(row.get("COST TOTAL")),
-            "sellTotal": to_number(row.get("SELL TOTAL")),
-            "profit": to_number(row.get("PROFIT")),
+            "provider": clean_col(tb_col(values, "PROVIDER")),
+            "neededQty": needed_qty,
+            "costPrice": to_number(tb_col(values, "COST PRICE")),
+            "sellPrice": sell_price,
+            "costTotal": cost_total,
+            "sellTotal": sell_total,
+            "profit": profit,
         })
+    if textbook_recomputed:
+        print(f"  ! TEXTBOOKS: recomputed SELL TOTAL/PROFIT for {textbook_recomputed} row(s) "
+              f"with broken formulas in STOCKS.xlsx (e.g. #REF!) -- consider fixing the "
+              f"formulas in the workbook itself so this doesn't rely on the fallback")
 
     # NB & STAT: one row per stationery item -- cost/selling price plus the
     # per-class quantity columns.

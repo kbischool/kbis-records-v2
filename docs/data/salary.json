@@ -65869,8 +65869,8 @@
      "outstanding": null,
      "extraBonus": 0,
      "amountPayable": 49500,
-     "paid": 0,
-     "balance": 49500,
+     "paid": 40000,
+     "balance": 9500,
      "dateDue": null
     },
     {
@@ -66005,8 +66005,8 @@
      "outstanding": null,
      "extraBonus": 16000,
      "amountPayable": 398140,
-     "paid": 0,
-     "balance": 398140,
+     "paid": 40000,
+     "balance": 358140,
      "dateDue": null
     }
    ],
