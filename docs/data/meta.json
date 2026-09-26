@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-25T05:35:31.645318+00:00",
+ "generatedAt": "2026-09-26T01:12:05.790072+00:00",
  "sessions": [
   "2021-2022",
   "2022-2023",
@@ -32,7 +32,7 @@
  "leftStudents": 100,
  "classCounts": {
   "NURSERY 1": 24,
-  "PRIMARY 2": 9,
+  "PRIMARY 2": 10,
   "SENIOR SECONDARY SCHOOL 2": 7,
   "NURSERY 2": 11,
   "PLAYGROUP 2": 10,
@@ -46,8 +46,7 @@
   "JUNIOR SECONDARY SCHOOL 1": 1,
   "CRECHE": 5,
   "PRIMARY 4": 4,
-  "PRINARY 2": 1,
   "SENIOR SECONDARY SCHOOL 3": 1
  },
- "currentOutstanding": 5479325
+ "currentOutstanding": 5408205
 }
