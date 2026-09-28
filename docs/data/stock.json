@@ -177,72 +177,72 @@
    "subject": "HANDWRITING, COLOURING AND SHAPES",
    "textbook": "THE BRILLANCE SCRIBBLE AND COLOURING FOR BEGINNERS",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 20,
+   "neededQty": 2,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 38000,
-   "sellTotal": 45600,
-   "profit": 7600
+   "costTotal": 3800,
+   "sellTotal": 4560,
+   "profit": 760
   },
   {
    "class": "02 PLAYGROUP 1",
    "subject": "ENGLISH LANGUAGE",
    "textbook": "THE BRILLANCE STEPS TO ALPHABETS FOR BEGINNERS",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 20,
+   "neededQty": 2,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 38000,
-   "sellTotal": 45600,
-   "profit": 7600
+   "costTotal": 3800,
+   "sellTotal": 4560,
+   "profit": 760
   },
   {
    "class": "02 PLAYGROUP 1",
    "subject": "MATHEMATICS",
    "textbook": "THE BRILLANCE STEPS TO NUMBERS FOR BEGINNERS",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 20,
+   "neededQty": 2,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 38000,
-   "sellTotal": 45600,
-   "profit": 7600
+   "costTotal": 3800,
+   "sellTotal": 4560,
+   "profit": 760
   },
   {
    "class": "03 PLAYGROUP 2",
    "subject": "HANDWRITING, COLOURING AND SHAPES",
    "textbook": "THE BRILLANCE HANDWRITING, COLOURING AND SHAPES 2",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 10,
+   "neededQty": 0,
    "costPrice": 2000,
    "sellPrice": 2400,
-   "costTotal": 20000,
-   "sellTotal": 24000,
-   "profit": 4000
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "03 PLAYGROUP 2",
    "subject": "ENGLISH LANGUAGE",
    "textbook": "THE BRILLANCE ENGLISH FOR NURSERY SCHOOL 1",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 10,
+   "neededQty": 0,
    "costPrice": 2200,
    "sellPrice": 2640,
-   "costTotal": 22000,
-   "sellTotal": 26400,
-   "profit": 4400
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "03 PLAYGROUP 2",
    "subject": "MATHEMATICS",
    "textbook": "THE BRILLANCE MATHEMATICS FOR NURSERY SCHOOL 1",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 10,
+   "neededQty": 0,
    "costPrice": 2200,
    "sellPrice": 2640,
-   "costTotal": 22000,
-   "sellTotal": 26400,
-   "profit": 4400
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "03 PLAYGROUP 2",
@@ -273,36 +273,36 @@
    "subject": "HANDWRITING, COLOURING AND SHAPES",
    "textbook": "THE BRILLANCE HANDWRITING, COLOURING AND SHAPES 3",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 24,
+   "neededQty": 4,
    "costPrice": 2000,
    "sellPrice": 2400,
-   "costTotal": 48000,
-   "sellTotal": 57600,
-   "profit": 9600
+   "costTotal": 8000,
+   "sellTotal": 9600,
+   "profit": 1600
   },
   {
    "class": "04 NURSERY 1",
    "subject": "ENGLISH LANGUAGE",
    "textbook": "THE BRILLANCE ENGLISH FOR NURSERY SCHOOL 2",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 24,
+   "neededQty": 4,
    "costPrice": 2200,
    "sellPrice": 2640,
-   "costTotal": 52800,
-   "sellTotal": 63360,
-   "profit": 10560
+   "costTotal": 8800,
+   "sellTotal": 10560,
+   "profit": 1760
   },
   {
    "class": "04 NURSERY 1",
    "subject": "MATHEMATICS",
    "textbook": "THE BRILLANCE MATHEMATICS FOR NURSERY SCHOOL 2",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 24,
+   "neededQty": 4,
    "costPrice": 2200,
    "sellPrice": 2640,
-   "costTotal": 52800,
-   "sellTotal": 63360,
-   "profit": 10560
+   "costTotal": 8800,
+   "sellTotal": 10560,
+   "profit": 1760
   },
   {
    "class": "04 NURSERY 1",
@@ -393,24 +393,24 @@
    "subject": "QUANTITATIVE REASONING",
    "textbook": "QUANTITATIVE REASONING 1",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 11,
+   "neededQty": 2,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 20900,
-   "sellTotal": 25080,
-   "profit": 4180
+   "costTotal": 3800,
+   "sellTotal": 4560,
+   "profit": 760
   },
   {
    "class": "05 NURSERY 2",
    "subject": "VERBAL REASONING",
    "textbook": "VERBAL REASONING 1",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 11,
+   "neededQty": 2,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 20900,
-   "sellTotal": 25080,
-   "profit": 4180
+   "costTotal": 3800,
+   "sellTotal": 4560,
+   "profit": 760
   },
   {
    "class": "05 NURSERY 2",
@@ -429,24 +429,24 @@
    "subject": "ENGLISH LITERATURE 1",
    "textbook": "MY BODY",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 11,
+   "neededQty": 2,
    "costPrice": 520,
    "sellPrice": 630,
-   "costTotal": 5720,
-   "sellTotal": 6930,
-   "profit": 1210
+   "costTotal": 1040,
+   "sellTotal": 1260,
+   "profit": 220
   },
   {
    "class": "05 NURSERY 2",
    "subject": "ENGLISH LITERATURE 2",
    "textbook": "TOM THE GOOD BOY",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 11,
+   "neededQty": 2,
    "costPrice": 520,
    "sellPrice": 630,
-   "costTotal": 5720,
-   "sellTotal": 6930,
-   "profit": 1210
+   "costTotal": 1040,
+   "sellTotal": 1260,
+   "profit": 220
   },
   {
    "class": "06 PRIMARY 1",
@@ -501,24 +501,24 @@
    "subject": "QUANTITATIVE REASONING",
    "textbook": "QUANTITATIVE REASONING 2",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 9,
+   "neededQty": 0,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 17100,
-   "sellTotal": 20520,
-   "profit": 3420
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "06 PRIMARY 1",
    "subject": "VERBAL REASONING",
    "textbook": "VERBAL REASONING 2",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 9,
+   "neededQty": 0,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 17100,
-   "sellTotal": 20520,
-   "profit": 3420
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "06 PRIMARY 1",
@@ -537,24 +537,24 @@
    "subject": "ENGLISH LITERATURE 1",
    "textbook": "MY DOG",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 9,
+   "neededQty": 0,
    "costPrice": 580,
    "sellPrice": 700,
-   "costTotal": 5220,
-   "sellTotal": 6300,
-   "profit": 1080
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "06 PRIMARY 1",
    "subject": "ENGLISH LITERATURE 2",
    "textbook": "CLAIRE'S PET",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 9,
+   "neededQty": 0,
    "costPrice": 630,
    "sellPrice": 760,
-   "costTotal": 5670,
-   "sellTotal": 6840,
-   "profit": 1170
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "07 PRIMARY 2",
@@ -609,24 +609,24 @@
    "subject": "QUANTITATIVE REASONING",
    "textbook": "QUANTITATIVE REASONING 3",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 10,
+   "neededQty": 2,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 19000,
-   "sellTotal": 22800,
-   "profit": 3800
+   "costTotal": 3800,
+   "sellTotal": 4560,
+   "profit": 760
   },
   {
    "class": "07 PRIMARY 2",
    "subject": "VERBAL REASONING",
    "textbook": "VERBAL REASONING 3",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 10,
+   "neededQty": 2,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 19000,
-   "sellTotal": 22800,
-   "profit": 3800
+   "costTotal": 3800,
+   "sellTotal": 4560,
+   "profit": 760
   },
   {
    "class": "07 PRIMARY 2",
@@ -645,24 +645,24 @@
    "subject": "ENGLISH LITERATURE 1",
    "textbook": "FAITH THE QUEEN OF MATHEMATICS",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 10,
+   "neededQty": 2,
    "costPrice": 680,
    "sellPrice": 820,
-   "costTotal": 6800,
-   "sellTotal": 8200,
-   "profit": 1400
+   "costTotal": 1360,
+   "sellTotal": 1640,
+   "profit": 280
   },
   {
    "class": "07 PRIMARY 2",
    "subject": "ENGLISH LITERATURE 2",
    "textbook": "THE REWARD OF HONESTY",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 10,
+   "neededQty": 2,
    "costPrice": 680,
    "sellPrice": 820,
-   "costTotal": 6800,
-   "sellTotal": 8200,
-   "profit": 1400
+   "costTotal": 1360,
+   "sellTotal": 1640,
+   "profit": 280
   },
   {
    "class": "08 PRIMARY 3",
@@ -717,24 +717,24 @@
    "subject": "QUANTITATIVE REASONING",
    "textbook": "QUANTITATIVE REASONING 4",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 10,
+   "neededQty": 1,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 19000,
-   "sellTotal": 22800,
-   "profit": 3800
+   "costTotal": 1900,
+   "sellTotal": 2280,
+   "profit": 380
   },
   {
    "class": "08 PRIMARY 3",
    "subject": "VERBAL REASONING",
    "textbook": "VERBAL REASONING 4",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 10,
+   "neededQty": 1,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 19000,
-   "sellTotal": 22800,
-   "profit": 3800
+   "costTotal": 1900,
+   "sellTotal": 2280,
+   "profit": 380
   },
   {
    "class": "08 PRIMARY 3",
@@ -753,24 +753,24 @@
    "subject": "ENGLISH LITERATURE 1",
    "textbook": "A VISIT TO BARRISTER FALANA'S LAW FIRM",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 10,
+   "neededQty": 1,
    "costPrice": 680,
    "sellPrice": 820,
-   "costTotal": 6800,
-   "sellTotal": 8200,
-   "profit": 1400
+   "costTotal": 680,
+   "sellTotal": 820,
+   "profit": 140
   },
   {
    "class": "08 PRIMARY 3",
    "subject": "ENGLISH LITERATURE 2",
-   "textbook": "MY PIGGY BANK",
+   "textbook": "MY TEACHER",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 10,
+   "neededQty": 1,
    "costPrice": 700,
    "sellPrice": 840,
-   "costTotal": 7000,
-   "sellTotal": 8400,
-   "profit": 1400
+   "costTotal": 700,
+   "sellTotal": 840,
+   "profit": 140
   },
   {
    "class": "09 PRIMARY 4",
@@ -825,24 +825,24 @@
    "subject": "QUANTITATIVE REASONING",
    "textbook": "QUANTITATIVE REASONING 5",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 4,
+   "neededQty": 0,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 7600,
-   "sellTotal": 9120,
-   "profit": 1520
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "09 PRIMARY 4",
    "subject": "VERBAL REASONING",
    "textbook": "VERBAL REASONING 5",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 4,
+   "neededQty": 0,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 7600,
-   "sellTotal": 9120,
-   "profit": 1520
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "09 PRIMARY 4",
@@ -861,24 +861,24 @@
    "subject": "ENGLISH LITERATURE 1",
    "textbook": "END OF TUNNEL",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 4,
+   "neededQty": 0,
    "costPrice": 700,
    "sellPrice": 840,
-   "costTotal": 2800,
-   "sellTotal": 3360,
-   "profit": 560
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "09 PRIMARY 4",
    "subject": "ENGLISH LITERATURE 2",
-   "textbook": "ALABA THE PUBLIC SPEAKER",
+   "textbook": "AN EXCURSION TO THE AIRPORT",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 4,
+   "neededQty": 0,
    "costPrice": 700,
    "sellPrice": 840,
-   "costTotal": 2800,
-   "sellTotal": 3360,
-   "profit": 560
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "10 PRIMARY 5",
@@ -933,24 +933,24 @@
    "subject": "QUANTITATIVE REASONING",
    "textbook": "QUANTITATIVE REASONING 6",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 5,
+   "neededQty": 1,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 9500,
-   "sellTotal": 11400,
-   "profit": 1900
+   "costTotal": 1900,
+   "sellTotal": 2280,
+   "profit": 380
   },
   {
    "class": "10 PRIMARY 5",
    "subject": "VERBAL REASONING",
    "textbook": "VERBAL REASONING 6",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 5,
+   "neededQty": 1,
    "costPrice": 1900,
    "sellPrice": 2280,
-   "costTotal": 9500,
-   "sellTotal": 11400,
-   "profit": 1900
+   "costTotal": 1900,
+   "sellTotal": 2280,
+   "profit": 380
   },
   {
    "class": "10 PRIMARY 5",
@@ -969,60 +969,60 @@
    "subject": "ENGLISH LITERATURE 1",
    "textbook": "BOLANLE THE BULLY",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 5,
+   "neededQty": 1,
    "costPrice": 720,
    "sellPrice": 870,
-   "costTotal": 3600,
-   "sellTotal": 4350,
-   "profit": 750
+   "costTotal": 720,
+   "sellTotal": 870,
+   "profit": 150
   },
   {
    "class": "10 PRIMARY 5",
    "subject": "ENGLISH LITERATURE 2",
    "textbook": "THE INTERHOUSE SPORTS COMPETITION",
    "provider": "THE EDUCATIONIST",
-   "neededQty": 5,
+   "neededQty": 1,
    "costPrice": 735,
    "sellPrice": 890,
-   "costTotal": 3675,
-   "sellTotal": 4450,
-   "profit": 775
+   "costTotal": 735,
+   "sellTotal": 890,
+   "profit": 155
   },
   {
    "class": "11 JSS1",
    "subject": "ENGLISH GRAMMAR",
    "textbook": "ACTIVE GRAMMAR 1",
    "provider": "WONSEBOLATAN",
-   "neededQty": 2,
-   "costPrice": 3600,
-   "sellPrice": 4320,
-   "costTotal": 7200,
-   "sellTotal": 8640,
-   "profit": 1440
+   "neededQty": 0,
+   "costPrice": 3150,
+   "sellPrice": 3780,
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "11 JSS1",
    "subject": "ENGLISH LANGUAGE",
    "textbook": "INTENSIVE ENGLISH 1",
    "provider": "WONSEBOLATAN",
-   "neededQty": 2,
+   "neededQty": 0,
    "costPrice": 4300,
    "sellPrice": 5160,
-   "costTotal": 8600,
-   "sellTotal": 10320,
-   "profit": 1720
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "11 JSS1",
    "subject": "MATHEMATICS",
    "textbook": "NEW GENERAL MATHS 1",
    "provider": "WONSEBOLATAN",
-   "neededQty": 2,
+   "neededQty": 0,
    "costPrice": 5000,
    "sellPrice": 6000,
-   "costTotal": 10000,
-   "sellTotal": 12000,
-   "profit": 2000
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "11 JSS1",
@@ -1077,36 +1077,36 @@
    "subject": "ENGLISH GRAMMAR",
    "textbook": "ACTIVE GRAMMAR 2",
    "provider": "WONSEBOLATAN",
-   "neededQty": 4,
-   "costPrice": 3600,
-   "sellPrice": 4320,
-   "costTotal": 14400,
-   "sellTotal": 17280,
-   "profit": 2880
+   "neededQty": 1,
+   "costPrice": 3150,
+   "sellPrice": 3780,
+   "costTotal": 3150,
+   "sellTotal": 3780,
+   "profit": 630
   },
   {
    "class": "12 JSS2",
    "subject": "ENGLISH LANGUAGE",
    "textbook": "INTENSIVE ENGLISH 2",
    "provider": "WONSEBOLATAN",
-   "neededQty": 5,
+   "neededQty": 0,
    "costPrice": 4300,
    "sellPrice": 5160,
-   "costTotal": 21500,
-   "sellTotal": 25800,
-   "profit": 4300
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "12 JSS2",
    "subject": "MATHEMATICS",
    "textbook": "NEW GENERAL MATHS 2",
    "provider": "WONSEBOLATAN",
-   "neededQty": 5,
+   "neededQty": 0,
    "costPrice": 5000,
    "sellPrice": 6000,
-   "costTotal": 25000,
-   "sellTotal": 30000,
-   "profit": 5000
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "12 JSS2",
@@ -1161,36 +1161,36 @@
    "subject": "ENGLISH GRAMMAR",
    "textbook": "ACTIVE GRAMMAR 3",
    "provider": "WONSEBOLATAN",
-   "neededQty": 10,
-   "costPrice": 4410,
-   "sellPrice": 5300,
-   "costTotal": 44100,
-   "sellTotal": 53000,
-   "profit": 8900
+   "neededQty": 4,
+   "costPrice": 3150,
+   "sellPrice": 3780,
+   "costTotal": 12600,
+   "sellTotal": 15120,
+   "profit": 2520
   },
   {
    "class": "13 JSS3",
    "subject": "ENGLISH LANGUAGE",
    "textbook": "INTENSIVE ENGLISH 3",
    "provider": "WONSEBOLATAN",
-   "neededQty": 8,
+   "neededQty": 0,
    "costPrice": 4300,
    "sellPrice": 5160,
-   "costTotal": 34400,
-   "sellTotal": 41280,
-   "profit": 6880
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "13 JSS3",
    "subject": "MATHEMATICS",
    "textbook": "NEW GENERAL MATHS 3",
    "provider": "WONSEBOLATAN",
-   "neededQty": 7,
+   "neededQty": 0,
    "costPrice": 5000,
    "sellPrice": 6000,
-   "costTotal": 35000,
-   "sellTotal": 42000,
-   "profit": 7000
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "13 JSS3",
@@ -1269,48 +1269,48 @@
    "subject": "ENGLISH LANGUAGE",
    "textbook": "INTENSIVE ENGLISH 1",
    "provider": "WONSEBOLATAN",
-   "neededQty": 2,
-   "costPrice": 4750,
-   "sellPrice": 5700,
-   "costTotal": 9500,
-   "sellTotal": 11400,
-   "profit": 1900
+   "neededQty": 0,
+   "costPrice": 4800,
+   "sellPrice": 5760,
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "14 SSS1",
    "subject": "MATHEMATICS",
    "textbook": "NEW GENERAL MATHS 1",
    "provider": "WONSEBOLATAN",
-   "neededQty": 2,
+   "neededQty": 0,
    "costPrice": 5150,
    "sellPrice": 6180,
-   "costTotal": 10300,
-   "sellTotal": 12360,
-   "profit": 2060
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "15 SSS2",
    "subject": "ENGLISH LANGUAGE",
    "textbook": "INTENSIVE ENGLISH 2",
    "provider": "WONSEBOLATAN",
-   "neededQty": 6,
-   "costPrice": 4750,
-   "sellPrice": 5700,
-   "costTotal": 28500,
-   "sellTotal": 34200,
-   "profit": 5700
+   "neededQty": 0,
+   "costPrice": 4800,
+   "sellPrice": 5760,
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "15 SSS2",
    "subject": "MATHEMATICS",
    "textbook": "NEW GENERAL MATHS 2",
    "provider": "WONSEBOLATAN",
-   "neededQty": 5,
+   "neededQty": 0,
    "costPrice": 5150,
    "sellPrice": 6180,
-   "costTotal": 25750,
-   "sellTotal": 30900,
-   "profit": 5150
+   "costTotal": 0,
+   "sellTotal": 0,
+   "profit": 0
   },
   {
    "class": "16 SSS3",
@@ -1318,8 +1318,8 @@
    "textbook": "INTENSIVE ENGLISH 3",
    "provider": "WONSEBOLATAN",
    "neededQty": 0,
-   "costPrice": 4750,
-   "sellPrice": 5700,
+   "costPrice": 4800,
+   "sellPrice": 5760,
    "costTotal": 0,
    "sellTotal": 0,
    "profit": 0
