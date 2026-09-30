@@ -15388,7 +15388,7 @@
   "firstSession": "2026-2027",
   "lastSession": "2026-2027",
   "sessionCount": 1,
-  "latestBalance": 68890,
+  "latestBalance": 18890,
   "sessions": [
    {
     "session": "2026-2027",
@@ -15397,8 +15397,8 @@
       "term": "1st Term",
       "class": "PLAYGROUP 1",
       "total": 68890,
-      "paid": 0,
-      "balance": 68890,
+      "paid": 50000,
+      "balance": 18890,
       "discount": 0.25,
       "items": {
        "AD_FORM": 1500,
@@ -15433,7 +15433,7 @@
   "firstSession": "2026-2027",
   "lastSession": "2026-2027",
   "sessionCount": 1,
-  "latestBalance": 77680,
+  "latestBalance": 27680,
   "sessions": [
    {
     "session": "2026-2027",
@@ -15442,8 +15442,8 @@
       "term": "1st Term",
       "class": "NURSERY 1",
       "total": 77680,
-      "paid": 0,
-      "balance": 77680,
+      "paid": 50000,
+      "balance": 27680,
       "discount": 0.25,
       "items": {
        "AD_FORM": 1500,
@@ -17927,7 +17927,7 @@
   "firstSession": "2023-2024",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 70605,
+  "latestBalance": 30605,
   "sessions": [
    {
     "session": "2023-2024",
@@ -18057,8 +18057,8 @@
       "term": "1st Term",
       "class": "PRIMARY 2",
       "total": 100605,
-      "paid": 30000,
-      "balance": 70605,
+      "paid": 70000,
+      "balance": 30605,
       "discount": 0.25,
       "items": {
        "AD_FORM": 1500,
@@ -18206,7 +18206,7 @@
   "firstSession": "2026-2027",
   "lastSession": "2026-2027",
   "sessionCount": 1,
-  "latestBalance": 33050,
+  "latestBalance": 13050,
   "sessions": [
    {
     "session": "2026-2027",
@@ -18215,8 +18215,8 @@
       "term": "1st Term",
       "class": "CRECHE",
       "total": 33050,
-      "paid": 0,
-      "balance": 33050,
+      "paid": 20000,
+      "balance": 13050,
       "discount": 0,
       "items": {
        "AD_FORM": 2000,
@@ -20477,7 +20477,7 @@
   "firstSession": "2026-2027",
   "lastSession": "2026-2027",
   "sessionCount": 1,
-  "latestBalance": 105145,
+  "latestBalance": 65145,
   "sessions": [
    {
     "session": "2026-2027",
@@ -20486,8 +20486,8 @@
       "term": "1st Term",
       "class": "PRIMARY 5",
       "total": 105145,
-      "paid": 0,
-      "balance": 105145,
+      "paid": 40000,
+      "balance": 65145,
       "discount": 0.25,
       "items": {
        "AD_FORM": 1500,
@@ -20524,7 +20524,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 42930,
+  "latestBalance": -22070,
   "sessions": [
    {
     "session": "2025-2026",
@@ -20563,8 +20563,8 @@
       "term": "1st Term",
       "class": "NURSERY 1",
       "total": 64930,
-      "paid": 22000,
-      "balance": 42930,
+      "paid": 87000,
+      "balance": -22070,
       "discount": 0,
       "items": {
        "TUITION": 26000,
@@ -25260,7 +25260,7 @@
   "firstSession": "2026-2027",
   "lastSession": "2026-2027",
   "sessionCount": 1,
-  "latestBalance": 84930,
+  "latestBalance": 44930,
   "sessions": [
    {
     "session": "2026-2027",
@@ -25269,8 +25269,8 @@
       "term": "1st Term",
       "class": "NURSERY 1",
       "total": 84930,
-      "paid": 0,
-      "balance": 84930,
+      "paid": 40000,
+      "balance": 44930,
       "discount": 0,
       "items": {
        "AD_FORM": 2000,
@@ -26511,7 +26511,7 @@
   "firstSession": "2023-2024",
   "lastSession": "2026-2027",
   "sessionCount": 4,
-  "latestBalance": 50430,
+  "latestBalance": 0,
   "sessions": [
    {
     "session": "2023-2024",
@@ -26736,8 +26736,8 @@
       "term": "1st Term",
       "class": "NURSERY 1",
       "total": 50430,
-      "paid": 0,
-      "balance": 50430,
+      "paid": 50430,
+      "balance": 0,
       "discount": 0.25,
       "items": {
        "TUITION": 19500,
@@ -26751,7 +26751,9 @@
        "PTA/EXAM": 4000
       },
       "deposits": {},
-      "extra": {}
+      "extra": {
+       "LESSON FEE PRY": 6000
+      }
      }
     ]
    }
@@ -26766,7 +26768,7 @@
   "firstSession": "2023-2024",
   "lastSession": "2026-2027",
   "sessionCount": 4,
-  "latestBalance": 75290,
+  "latestBalance": 25720,
   "sessions": [
    {
     "session": "2023-2024",
@@ -27012,8 +27014,8 @@
       "term": "1st Term",
       "class": "PRIMARY 3",
       "total": 75290,
-      "paid": 0,
-      "balance": 75290,
+      "paid": 49570,
+      "balance": 25720,
       "discount": 0.25,
       "items": {
        "TUITION": 21000,
@@ -27044,7 +27046,7 @@
   "firstSession": "2023-2024",
   "lastSession": "2026-2027",
   "sessionCount": 4,
-  "latestBalance": 73925,
+  "latestBalance": 33925,
   "sessions": [
    {
     "session": "2023-2024",
@@ -27283,8 +27285,8 @@
       "term": "1st Term",
       "class": "PRIMARY 1",
       "total": 73925,
-      "paid": 0,
-      "balance": 73925,
+      "paid": 40000,
+      "balance": 33925,
       "discount": 0.25,
       "items": {
        "TUITION": 21000,
@@ -33111,7 +33113,7 @@
   "firstSession": "2026-2027",
   "lastSession": "2026-2027",
   "sessionCount": 1,
-  "latestBalance": 33050,
+  "latestBalance": -3000,
   "sessions": [
    {
     "session": "2026-2027",
@@ -33120,8 +33122,8 @@
       "term": "1st Term",
       "class": "CRECHE",
       "total": 33050,
-      "paid": 0,
-      "balance": 33050,
+      "paid": 36050,
+      "balance": -3000,
       "discount": 0,
       "items": {
        "AD_FORM": 2000,
