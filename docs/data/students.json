@@ -4174,7 +4174,7 @@
   "firstSession": "2021-2022",
   "lastSession": "2026-2027",
   "sessionCount": 6,
-  "latestBalance": 39235,
+  "latestBalance": -8765,
   "sessions": [
    {
     "session": "2021-2022",
@@ -4551,8 +4551,8 @@
       "term": "1st Term",
       "class": "PRIMARY 5",
       "total": 76770,
-      "paid": 37535,
-      "balance": 39235,
+      "paid": 85535,
+      "balance": -8765,
       "discount": 0.25,
       "items": {
        "TUITION": 21000,
@@ -4568,7 +4568,9 @@
        "PRACTICALS": 5000
       },
       "deposits": {},
-      "extra": {}
+      "extra": {
+       "LESSON FEE PRY": 6000
+      }
      }
     ]
    }
@@ -18245,7 +18247,7 @@
   "firstSession": "2025-2026",
   "lastSession": "2026-2027",
   "sessionCount": 2,
-  "latestBalance": 79830,
+  "latestBalance": 39830,
   "sessions": [
    {
     "session": "2025-2026",
@@ -18340,8 +18342,8 @@
       "term": "1st Term",
       "class": "JUNIOR SECONDARY SCHOOL 2",
       "total": 79830,
-      "paid": 0,
-      "balance": 79830,
+      "paid": 40000,
+      "balance": 39830,
       "discount": 0,
       "items": {
        "TUITION": 33000,
@@ -30133,7 +30135,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 45930,
+  "latestBalance": 25930,
   "sessions": [
    {
     "session": "2024-2025",
@@ -30286,8 +30288,8 @@
       "term": "1st Term",
       "class": "NURSERY 1",
       "total": 45930,
-      "paid": 0,
-      "balance": 45930,
+      "paid": 20000,
+      "balance": 25930,
       "discount": 0.5,
       "items": {
        "TUITION": 13000,
@@ -30316,7 +30318,7 @@
   "firstSession": "2024-2025",
   "lastSession": "2026-2027",
   "sessionCount": 3,
-  "latestBalance": 57980,
+  "latestBalance": 32980,
   "sessions": [
    {
     "session": "2024-2025",
@@ -30480,8 +30482,8 @@
       "term": "1st Term",
       "class": "PRIMARY 2",
       "total": 57980,
-      "paid": 0,
-      "balance": 57980,
+      "paid": 25000,
+      "balance": 32980,
       "discount": 0.5,
       "items": {
        "TUITION": 14000,
